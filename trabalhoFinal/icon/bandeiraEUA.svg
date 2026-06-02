@@ -1,0 +1,41 @@
+<svg width="45" height="30" viewBox="0 0 19 10" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- fundo com borda arredondada -->
+  <rect width="19" height="10" rx="1.5" fill="white"/>
+
+  <!-- listras vermelhas -->
+  <g fill="#B22234">
+    <rect y="0" width="19" height="0.8"/>
+    <rect y="1.6" width="19" height="0.8"/>
+    <rect y="3.2" width="19" height="0.8"/>
+    <rect y="4.8" width="19" height="0.8"/>
+    <rect y="6.4" width="19" height="0.8"/>
+    <rect y="8" width="19" height="0.8"/>
+    <rect y="9.6" width="19" height="0.8"/>
+  </g>
+
+  <!-- área azul -->
+  <rect width="7.6" height="5.6" fill="#3C3B6E"/>
+
+  <!-- estrelas (estilo simplificado para web) -->
+  <g fill="white">
+    <circle cx="0.8" cy="0.8" r="0.2"/>
+    <circle cx="2" cy="0.8" r="0.2"/>
+    <circle cx="3.2" cy="0.8" r="0.2"/>
+    <circle cx="4.4" cy="0.8" r="0.2"/>
+    <circle cx="5.6" cy="0.8" r="0.2"/>
+
+    <circle cx="1.4" cy="1.6" r="0.2"/>
+    <circle cx="2.6" cy="1.6" r="0.2"/>
+    <circle cx="3.8" cy="1.6" r="0.2"/>
+    <circle cx="5" cy="1.6" r="0.2"/>
+    <circle cx="6.2" cy="1.6" r="0.2"/>
+
+    <circle cx="0.8" cy="2.4" r="0.2"/>
+    <circle cx="2" cy="2.4" r="0.2"/>
+    <circle cx="3.2" cy="2.4" r="0.2"/>
+    <circle cx="4.4" cy="2.4" r="0.2"/>
+    <circle cx="5.6" cy="2.4" r="0.2"/>
+  </g>
+
+</svg>
