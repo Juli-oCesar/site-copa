@@ -1,4 +1,3 @@
-// continentes
 
 function continenteAF() {
     window.location.href = "./pages/continentes/africa/africa.html"

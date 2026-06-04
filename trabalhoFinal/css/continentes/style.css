@@ -10,17 +10,18 @@ html {
 }
 
 header {
-    position:sticky;
+    
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(3, 20, 11, 0);
+    background-color: rgba(3, 20, 11, 0.5);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block;
 }
 
 body {
     background-image: url('/trabalhoFinal/images/background.png');
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     perspective: 1000px;
 }
@@ -41,11 +42,25 @@ body {
     margin-top: 0rem;
 }
 
+.logo a {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: rgb(187, 159, 0);
+}
+
 /* Menu */
 .menu ul {
     list-style: none;
     display:flex;
-    gap: 2.5rem;
+    gap: 3rem;
     
 }
 
@@ -66,16 +81,12 @@ body {
 }
 
 .nomeContinente {
-    margin-right: 135rem;
+    margin-right: auto;
 }
 
 /* .topo {
-    background-color: rgba(3, 20, 11, 0.95);
-    width: 150rem;
-    height: 25rem;
-    margin-top: 0rem;
-    margin-bottom: 10rem;
-    border-radius: 3rem;
+    
+    
 } */
 
 .voltar {
@@ -92,10 +103,19 @@ body {
     text-decoration: none;
 }
 
+.voltar a:hover {
+    color:rgba(40, 78, 58, 0.95);
+    text-decoration: underline rgb(187, 159, 0, 0.6);
+    text-shadow: 0 2px 10px rgba(255,215,0,0.2);
+}
+
 .voltar i {
     margin-right: 1.5rem;
     color:rgb(187, 159, 0);
+}
 
+.voltar i:hover {
+    text-shadow: 0 2px 10px rgba(255,215,0,1);
 }
 
 .info-continente {
@@ -103,10 +123,10 @@ body {
     color: #fff;
     font-size: 1.8rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
     padding: 0 2rem;
     display: flex;
-    align-items: flex-start; 
+    align-items: center; 
+    justify-content: flex-start;
 }
 
 .info-continente h2 {
@@ -120,7 +140,7 @@ body {
     font-size: 2rem;
     letter-spacing: 0.1rem;
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 3rem;
  }
 
 .iconeContinente {
@@ -138,6 +158,9 @@ body {
 .iconeContinente img {
     width: 15rem;
     height: 15rem;
+    display: flex;
+    
+    
 }
 .secao {
     max-width: 170rem;
@@ -145,34 +168,136 @@ body {
     padding: 0 2rem;
 }
 
+
+
+.informativo-europa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#info-europa {    
+    display: flex;
+    align-items: center;
+    padding: 0rem 5rem;
+    margin-top: 0rem;
+
+}
+
+
+
+.informativo-europa img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.informativo-europa h4 {
+    font-size: 3rem;
+    
+}
+
+.linha-topo { 
+    
+width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, 
+        transparent, 
+        rgba(36, 82, 36, 0.5), 
+        transparent
+    );
+    border: none;
+    margin: 0rem 0;
+
+
+}
+
+
+
+
+
+
 .grid {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: repeat(4, minmax(20rem, 1fr));
-    gap: 2.5rem;    
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    gap: 2.5rem;
+    width: 100%;    
+}
+
+
+
+
+
+#grid-secao {
+    background-color: rgba(3, 20, 11, 0.5);
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 10px rgba(255,215,0,0.5);
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem 5rem;
+    margin-top: 0rem;
 }
 
 .card {
     font-family: arial;
     font-size: 1.6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 20rem;
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    gap: 1.5rem;
+    align-items: center;
+    border: 0.1rem solid rgba(43, 44, 44, 0.9);
     border-radius: 1.5rem;
-    box-shadow: 0 2px 10px rgba(255,215,0,0.5);
     transition: 0.5s;
-    background: linear-gradient(135deg, rgba(8, 59, 32, 0.95), rgba(3, 20, 11, 0.95));
+     background: linear-gradient(to right, 
+        transparent, 
+        rgba(11, 27, 18, 1), 
+        transparent
+    );
     position: relative;
     overflow: hidden;
 }
 
 .card:hover {
-    transform: translate(0px, 0px);
-    background: linear-gradient(135deg, rgb(187, 159, 0), rgba(3, 20, 11, 0.95));
-    box-shadow: 0 2px 10px rgb(3, 71, 18);
+    transform: translate(2px, -2px);
+   
 }
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(15deg, transparent, rgba(138, 118, 4, 0.2), transparent);
+    transition: 0.2s;
+}
+
+/* reflexo */
+.card:hover::before {
+    left: 100%;
+}
+
+.topo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+
 .card h3 {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -183,25 +308,21 @@ body {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
+    padding-top: 1rem;
 }
 
-.card-content {
-    margin-left: 0rem;
-    display: flex;
-    flex-direction:column;
-    align-items:left;
-    justify-content:space-evenly;
-}
+
+
 
 .iconePais {
+    margin: 2rem;
     
     
-    margin-top: 1.5rem;
 }
 
 .iconePais img {
-    width: 7rem;
-    height: 7rem;
+    width: 6.4rem;
+    height: 6.4rem;
     border: 0.1rem solid rgba(255, 255, 255, 0.9);
     border-radius: 50%;
 }
@@ -209,61 +330,130 @@ body {
 
 .card_botao {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: #000;
-    width: 10rem;
-    height: 3rem;
-    margin: 1.5rem;
-    margin-left: 0rem;
-    padding:1rem;
+    font-size: 1.3rem;
     
-    border: #000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
-    align-items:end;
-    cursor:pointer;
-    display: flex;
-    justify-content: left;
-    transition: 0.5s;
-
-    /* reflexo */
+    align-self:flex-start ;
+      
     position: relative;
-    overflow: hidden;
-
+    overflow: hidden; 
+    
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+    color: white;
+    transition: 0.1s;
+    
 }
 
+.separador-card {
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, 
+        transparent, 
+        rgba(255,215,0,0.8), 
+        transparent
+    );
+    border: none;
+    margin: 0rem 0;    
+}
+
+
+.btncard {
+    grid-column: 1 / -1;
+    display: flex;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    
+    
+}
 
 .card_botao:hover {
-    transform: translateY(-3px);
-    background: rgba(25, 59, 32, 0.9);
-    box-shadow: 0 10px 20px rgba(224, 216, 169, 0.1);
+    transform: translate(1px,-2px);
     color: #fff;
-    
 }
 
-.card_botao:hover #bola {
+.card_botao i {
     color: rgba(255,215,0,1);
+    margin-left: 10px;
 }
 
-/* reflexo */
-.card_botao::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
-    transition: 0.5s;
+.card_botao:hover i {
+    color: rgb(4, 83, 38);
+    margin-left: 10px;
 }
 
-/* reflexo */
-.card_botao:hover::before {
-    left: 100%;
+.linha { 
+    
+width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, 
+        transparent, 
+        rgba(255,215,0,0.5), 
+        transparent
+    );
+    border: none;
+    margin: 0rem 0;
+
+
+}
+
+.separador {
+    padding: 1.5rem 0;
 }
 
 #secao-informativo-continentes {
+    border: 0.1rem solid rgba(3, 20, 11, 0.95);
+    border-radius: 1.5rem;
+    background-color: rgba(3, 20, 11, 0.5);
+    box-shadow: 0 2px 10px rgba(255,215,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 2rem 5rem;
+    margin-top: 2rem;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 1.8rem;
     margin-top: 2rem;
+}
+
+#secao-informativo-continentes h3 {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    
+}
+
+#secao-informativo-continentes p {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.ancora-topo {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+}
+
+.ancora-topo img {
+    background-color: #fff;
+    align-items: start;
+    border-radius: 50%;
+}
+
+.ancora-topo img:hover {
+    background: linear-gradient(250deg, rgb(255,215,0, 1),  rgb(255, 255, 255));
+}
+
+.ancora-topo a {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -10,8 +11,8 @@
     <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    
-    
+
+
 
 </head>
 
@@ -20,26 +21,28 @@
     <header>
         <div class="container">
             <div class="logo">
-            <a href="index.html"><img src="Icon/taca_copa.png" alt="Logo Copa do Mundo"></a>  
+                <a href="index.html"><img src="Icon/taca_copa.png" alt="Logo Copa do Mundo"></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="/trabalhoFinal/pages/header/selecoes.html"><b>Seleções</b></a></li>
+                    <li><a href="/trabalhoFinal/pages/header/edicao.html"><b>Edição 2026</b></a></li>
+                    <li><a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="/trabalhoFinal/pages/header/selecoes.html"><b>Seleções</b></a></li>
-                <li><a href="/trabalhoFinal/pages/header/edicao.html"><b>Edição 2026</b></a></li>
-                <li><a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a></li>
-            </ul>         
-        </nav>
-        </div>
-        
+
     </header>
-    
+
     <!-- <img class="iconePais" src="/trabalhoFinal/icon/iconeEUA.png" alt="Ícone dos Estados Unidos"> -->
 
     <h1 background>COPA DO MUNDO 2026</h1>
 
-    <h2><img class="iconePais" src="/trabalhoFinal/icon/bandeiraMexico.png" alt="Bandeira do México"> México • 
-        <img class="iconePais" src="/trabalhoFinal/icon/bandeiraEUA.png" alt="Bandeira dos Estados Unidos"> Estados Unidos • 
-        <img class="iconePais" src="/trabalhoFinal/icon/bandeiraCanada.png" alt="Bandeira do Canadá"> Canadá</h2>
+    <h2><img class="iconePais" src="/trabalhoFinal/icon/bandeiraMexico.png" alt="Bandeira do México"> México •
+        <img class="iconePais" src="/trabalhoFinal/icon/bandeiraEUA.png" alt="Bandeira dos Estados Unidos"> Estados
+        Unidos •
+        <img class="iconePais" src="/trabalhoFinal/icon/bandeiraCanada.png" alt="Bandeira do Canadá"> Canadá
+    </h2>
     <p id="data"><i>Junho - Julho 2026</i></p>
 
     <h3>Explorar Seleções por Continente</h3>
@@ -54,17 +57,20 @@
                 <div class="card-content">
                     <h4>África</h4>
                     <p>9 seleções participantes</p>
-                    <button class="card_botao" type="button" onclick="continenteAF()">Ver Seleções <i id="bola" class="fa-regular fa-futbol"></i></button>
+                    <button class="card_botao" data-continente="africa">Ver Seleções <i id="bola"
+                            class="fa-regular fa-futbol"></i></button>
                 </div>
             </div>
             <div class="card">
                 <div class="iconeContinente">
-                    <img src="/trabalhoFinal/icon/iconeAmericaDoNorte.png" alt="Ícone do continente América do Norte e América Central">
+                    <img src="/trabalhoFinal/icon/iconeAmericaDoNorte.png"
+                        alt="Ícone do continente América do Norte e América Central">
                 </div>
                 <div class="card-content">
                     <h4>América do Norte e América Central</h4>
                     <p>8 seleções participantes</p>
-                    <button class="card_botao" type="button" onclick="continenteNA()">Ver Seleções <i id="bola" class="fa-regular fa-futbol"></i></button>
+                    <button class="card_botao" data-continente="americaDoNorte">Ver Seleções <i id="bola"
+                            class="fa-regular fa-futbol"></i></button>
                 </div>
             </div>
             <div class="card">
@@ -74,7 +80,8 @@
                 <div class="card-content">
                     <h4 id="continente">América do Sul</h4>
                     <p>6 seleções participantes</p>
-                    <button class="card_botao" type="button" onclick="continenteSA()">Ver Seleções <i id="bola" class="fa-regular fa-futbol"></i></button>
+                    <button class="card_botao" data-continente="americaDoSul">Ver Seleções <i id="bola"
+                            class="fa-regular fa-futbol"></i></button>
                 </div>
             </div>
             <div class="card">
@@ -84,7 +91,8 @@
                 <div class="card-content">
                     <h4 id="continente">Ásia</h4>
                     <p>8 seleções participantes</p>
-                    <button class="card_botao" type="button" onclick="continenteAS()">Ver Seleções <i id="bola" class="fa-regular fa-futbol"></i></button>
+                    <button class="card_botao" data-continente="asia">Ver Seleções <i id="bola"
+                            class="fa-regular fa-futbol"></i></button>
                 </div>
             </div>
             <div class="card">
@@ -94,17 +102,19 @@
                 <div class="card-content">
                     <h4 id="continente">Europa</h4>
                     <p>16 seleções participantes</p>
-                    <button class="card_botao" type="button" onclick="continenteEU()">Ver Seleções <i id="bola" class="fa-regular fa-futbol"></i></button>
+                    <button class="card_botao" data-continente="europa">Ver Seleções <i id="bola"
+                            class="fa-regular fa-futbol"></i></button>
                 </div>
             </div>
-            <div class="card">  
+            <div class="card">
                 <div class="iconeContinente">
                     <img src="/trabalhoFinal/icon/iconeOceania.png" alt="Ícone do continente Oceania">
                 </div>
                 <div class="card-content">
                     <h4 id="continente">Oceania</h4>
                     <p>1 seleções participantes</p>
-                    <button class="card_botao" type="button" onclick="continenteOC()">Ver Seleções <i id="bola" class="fa-regular fa-futbol"></i></button>
+                    <button class="card_botao" data-continente="oceania">Ver Seleções <i id="bola"
+                            class="fa-regular fa-futbol"></i></button>
                 </div>
             </div>
         </div>
@@ -112,48 +122,49 @@
     </section>
 
     <section class="secao" id="secao-informativo">
-    <div class="informativo-homeScreen">
-        <div class="iconeInformativo">
-            <img src="/trabalhoFinal/icon/futebol.png" alt="Ícone de edições">
+        <div class="informativo-homeScreen">
+            <div class="iconeInformativo">
+                <img src="/trabalhoFinal/icon/futebol.png" alt="Ícone de edições">
+            </div>
+            <span id="primeiraDiv">
+                <h4>22</h4>
+                <p>Edições desde 1930</p>
+            </span>
+            <div class="iconeInformativo">
+                <img src="/trabalhoFinal/icon/trabalho-em-equipe.png" alt="Ícone de edições">
+            </div>
+            <span id="segundaDiv">
+                <h4>211</h4>
+                <p>Seleções já participaram</p>
+            </span>
+            <div class="iconeInformativo">
+                <img src="/trabalhoFinal/icon/taca-de-ouro.png" alt="Ícone de edições">
+            </div>
+            <span id="terceiraDiv">
+                <h4>8</h4>
+                <p>Campeões diferentes</p>
+            </span>
+            <div class="iconeInformativo">
+                <img src="/trabalhoFinal/icon/campo-de-futebol.png" alt="Ícone de edições">
+            </div>
+            <span id="quartaDiv">
+                <h4>2.781</h4>
+                <p>Partidas disputadas</p>
+            </span>
+            <div class="iconeInformativo">
+                <img src="/trabalhoFinal/icon/gol-no-futebol.png" alt="Ícone de edições">
+            </div>
+            <span id="quintaDiv">
+                <h4>7.489</h4>
+                <p>Gols marcados</p>
+            </span>
         </div>
-        <span id="primeiraDiv">
-            <h4>22</h4>
-            <p>Edições desde 1930</p>
-        </span>
-        <div class="iconeInformativo">
-            <img src="/trabalhoFinal/icon/trabalho-em-equipe.png" alt="Ícone de edições">
-        </div>
-        <span id="segundaDiv">
-            <h4>211</h4>
-            <p>Seleções já participaram</p>
-        </span>
-        <div class="iconeInformativo">
-            <img src="/trabalhoFinal/icon/taca-de-ouro.png" alt="Ícone de edições">
-        </div>
-        <span id="terceiraDiv">
-            <h4>8</h4>
-            <p>Campeões diferentes</p>
-        </span>
-        <div class="iconeInformativo">
-            <img src="/trabalhoFinal/icon/campo-de-futebol.png" alt="Ícone de edições">
-        </div>
-        <span id="quartaDiv">
-            <h4>2.781</h4>
-            <p>Partidas disputadas</p>
-        </span>
-        <div class="iconeInformativo">
-            <img src="/trabalhoFinal/icon/gol-no-futebol.png" alt="Ícone de edições">
-        </div>
-        <span id="quintaDiv">
-            <h4>7.489</h4>
-            <p>Gols marcados</p>
-        </span>
-    </div>
     </section>
-    
-    
+
+
 
 
     <script src="/trabalhoFinal/js/app.js"></script>
 </body>
+
 </html>
