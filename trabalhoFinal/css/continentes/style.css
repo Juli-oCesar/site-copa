@@ -3,14 +3,14 @@ html {
 }
 
 * {
-    
+
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
 }
 
 header {
-    
+
     top: 0;
     left: 0;
     width: 100%;
@@ -31,7 +31,7 @@ body {
     margin-left: 0rem;
     padding: 0.5rem 2rem;
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,9 +59,9 @@ body {
 /* Menu */
 .menu ul {
     list-style: none;
-    display:flex;
+    display: flex;
     gap: 3rem;
-    
+
 }
 
 .menu a {
@@ -70,14 +70,14 @@ body {
     font-size: 1.6rem;
     color: #fff;
     transition: 0.3s;
-    
+
 }
 
 /* Hover */
 .menu a:hover {
     color: #ffd900;
     transform: translate(7px, -7px);
-    
+
 }
 
 .nomeContinente {
@@ -92,30 +92,30 @@ body {
 .voltar {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    font-weight:bolder;
+    font-weight: bolder;
     margin: 2rem;
-    margin-left: 10rem;
+    margin-left: 2rem;
     display: flex;
 }
 
 .voltar a {
-    color:rgba(40, 78, 58, 0.95);
+    color: rgba(40, 78, 58, 0.95);
     text-decoration: none;
 }
 
 .voltar a:hover {
-    color:rgba(40, 78, 58, 0.95);
+    color: rgba(40, 78, 58, 0.95);
     text-decoration: underline rgb(187, 159, 0, 0.6);
-    text-shadow: 0 2px 10px rgba(255,215,0,0.2);
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.2);
 }
 
 .voltar i {
     margin-right: 1.5rem;
-    color:rgb(187, 159, 0);
+    color: rgb(187, 159, 0);
 }
 
 .voltar i:hover {
-    text-shadow: 0 2px 10px rgba(255,215,0,1);
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 1);
 }
 
 .info-continente {
@@ -125,7 +125,7 @@ body {
     margin-top: 2rem;
     padding: 0 2rem;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: flex-start;
 }
 
@@ -134,14 +134,14 @@ body {
     letter-spacing: 0.1rem;
     text-align: left;
     margin-left: 2rem;
- }
+}
 
- .info-continente p {
+.info-continente p {
     font-size: 2rem;
     letter-spacing: 0.1rem;
     text-align: left;
     margin-left: 3rem;
- }
+}
 
 .iconeContinente {
     background-color: rgba(3, 20, 11, 0.95);
@@ -159,16 +159,20 @@ body {
     width: 15rem;
     height: 15rem;
     display: flex;
-    
-    
+
+
 }
+
 .secao {
-    max-width: 170rem;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
-
+#secao-informativo-continente {
+    display: flex;
+    align-items: flex-end;
+}
 
 .informativo-europa {
     font-family: 'Poppins', sans-serif;
@@ -182,10 +186,18 @@ body {
     transition: 0.5s;
     position: relative;
     overflow: hidden;
-    
+
 }
 
-#info-europa {    
+.container-info-europa {
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#info-europa {
     display: flex;
     align-items: center;
     padding: 0rem 5rem;
@@ -193,42 +205,111 @@ body {
 
 }
 
-
+.info-europa-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 .informativo-europa img {
     width: 5rem;
     height: 5rem;
     object-fit: cover;
-    margin-right: 1rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
 }
 
 .informativo-europa h4 {
     font-size: 3rem;
-    
+
 }
 
-.linha-topo { 
-    
-width: 100%;
+
+
+.linha-topo {
+
+    width: 100%;
     height: 2px;
-    background: linear-gradient(to right, 
-        transparent, 
-        rgba(36, 82, 36, 0.5), 
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            rgba(36, 82, 36, 0.5),
+            transparent);
     border: none;
     margin: 0rem 0;
 
 
 }
 
+.barra-de-controles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0rem 0;
+    gap: 2rem;
+}
+
+.barra-de-busca {
+    display: flex;
+    align-items: center;
+    background: rgba(3, 20, 11, 0.6);
+    /* border: 0.1rem solid rgba(255,215,0,0.5); */
+    box-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 35rem;
+}
+
+.barra-de-busca i {
+    color: rgb(187, 159, 0);
+    margin-right: 1rem;
+}
+
+.barra-de-busca input {
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(187, 159, 0);
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.filtro {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(3, 20, 11, 0.6);
+    /* border: 0.1rem solid rgba(36, 82, 36, 0.8); */
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
+}
+
+.filtro i {
+    color: rgb(187, 159, 0);
+    margin-right: 1rem;
+}
+
+.filtro select {
+    background: rgba(3, 20, 11, 0.1);
+    border: none;
+    border-radius: 5rem;
+    color: rgb(187, 159, 0);
+    font-size: 1.4rem;
+    outline: none;
+    cursor: pointer;
+}
+
+
 
 .grid {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
     gap: 2.5rem;
-    width: 100%;    
+    width: 100%;
 }
 
 
@@ -238,13 +319,13 @@ width: 100%;
 #grid-secao {
     background-color: rgba(3, 20, 11, 0.5);
     width: 100%;
-    height: 100%;
-    box-shadow: 0 2px 10px rgba(255,215,0,0.5);
+    max-width: 120rem;
+    box-shadow: 0 2px 10px rgba(255, 215, 0, 0.5);
     border-radius: 1.5rem;
-    display: flex;
+    display: block;
     align-items: center;
-    padding: 2rem 5rem;
-    margin-top: 0rem;
+    padding: 2rem;
+    margin: 0 auto;
 }
 
 .card {
@@ -257,18 +338,17 @@ width: 100%;
     border: 0.1rem solid rgba(43, 44, 44, 0.9);
     border-radius: 1.5rem;
     transition: 0.5s;
-     background: linear-gradient(to right, 
-        transparent, 
-        rgba(11, 27, 18, 1), 
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            rgba(11, 27, 18, 1),
+            transparent);
     position: relative;
     overflow: hidden;
 }
 
 .card:hover {
     transform: translate(2px, -2px);
-   
+
 }
 
 .card::before {
@@ -312,8 +392,8 @@ width: 100%;
 
 .iconePais {
     margin: 2rem;
-    
-    
+
+
 }
 
 .iconePais img {
@@ -327,32 +407,31 @@ width: 100%;
 .card_botao {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
-    
-    align-self:flex-start ;
-      
+
+    align-self: flex-start;
+
     position: relative;
-    overflow: hidden; 
-    
+    overflow: hidden;
+
     border: none;
     background: none;
     cursor: pointer;
-    
+
     color: white;
     transition: 0.1s;
-    
+
 }
 
 .separador-card {
     grid-column: 1 / -1;
     width: 100%;
     height: 1px;
-    background: linear-gradient(to right, 
-        transparent, 
-        rgba(255,215,0,0.8), 
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            rgba(255, 215, 0, 0.8),
+            transparent);
     border: none;
-    margin: 0rem 0;    
+    margin: 0rem 0;
 }
 
 
@@ -361,17 +440,17 @@ width: 100%;
     display: flex;
     padding-bottom: 1rem;
     padding-left: 2rem;
-    
-    
+
+
 }
 
 .card_botao:hover {
-    transform: translate(1px,-2px);
+    transform: translate(1px, -2px);
     color: #fff;
 }
 
 .card_botao i {
-    color: rgba(255,215,0,1);
+    color: rgba(255, 215, 0, 1);
     margin-left: 10px;
 }
 
@@ -380,15 +459,14 @@ width: 100%;
     margin-left: 10px;
 }
 
-.linha { 
-    
-width: 100%;
+.linha {
+
+    width: 100%;
     height: 2px;
-    background: linear-gradient(to right, 
-        transparent, 
-        rgba(255,215,0,0.5), 
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            rgba(255, 215, 0, 0.5),
+            transparent);
     border: none;
     margin: 0rem 0;
 
@@ -403,13 +481,12 @@ width: 100%;
     border: 0.1rem solid rgba(3, 20, 11, 0.95);
     border-radius: 1.5rem;
     background-color: rgba(3, 20, 11, 0.5);
-    box-shadow: 0 2px 10px rgba(255,215,0,0.5);
+    box-shadow: 0 2px 10px rgba(255, 215, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    padding: 2rem 5rem;
-    margin-top: 2rem;
+    padding: 2rem;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 1.8rem;
@@ -420,7 +497,7 @@ width: 100%;
     font-size: 4rem;
     letter-spacing: 0.1rem;
     text-align: center;
-    
+
 }
 
 #secao-informativo-continentes p {
@@ -442,7 +519,7 @@ width: 100%;
 }
 
 .ancora-topo img:hover {
-    background: linear-gradient(250deg, rgb(255,215,0, 1),  rgb(255, 255, 255));
+    background: linear-gradient(250deg, rgb(255, 215, 0, 1), rgb(255, 255, 255));
 }
 
 .ancora-topo a {
@@ -452,4 +529,104 @@ width: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    /* Topo */
+    .info-continente {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .info-continente h2 {
+        font-size: 5.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .info-continente p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .info-continente img {
+        text-align: center;
+    }
+
+    /* Informativo */
+    .informativo-europa {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2rem;
+
+    }
+
+    .informativo-europa>div,
+    .informativo-europa>span {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+
+    .container-info-europa {
+        background: rgba(3, 20, 11, 0.4);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+
+    #info-europa {
+        padding: 0;
+    }
+
+    /* Busca + filtro */
+    .barra-de-controles {
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    .barra-de-busca {
+        max-width: 100%;
+    }
+
+    .filtro {
+        justify-content: space-between;
+    }
+
+
+
+    /* Cards */
+
+
+
+
+    #grid-secao {
+        margin: 0 1rem; /* 👈 cria espaço lateral no celular */
+        padding: 2rem 1.5rem;
+    }
+
+
+    .card {
+        grid-template-columns: 6rem 1fr;
+    }
+
+    .iconePais img {
+        width: 5rem;
+        height: 5rem;
+    }
+
 }

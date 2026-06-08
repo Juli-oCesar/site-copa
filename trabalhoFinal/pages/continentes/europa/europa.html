@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximums-scale=1.0    ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/trabalhoFinal/icon/icone.png">
     <link rel="stylesheet" href="/trabalhoFinal/css/continentes/style.css">
     <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
@@ -32,7 +32,7 @@
 
     </header>
 
-    <section class="topo">
+    <section class="secao">
         <div class="voltar">
             <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
         </div>
@@ -54,43 +54,33 @@
     </section>
 
     <section class="secao" id="info-europa">
-                <section class="secao" id="secao-informativo-continente">
+        <section class="secao" id="secao-informativo-continente">
             <div class="informativo-europa">
-                <div class="iconeInformativo">
+
+                <div class="container-info-europa">
                     <img src="/trabalhoFinal/icon/futebol.png" alt="Ícone de edições">
+                    <span class="info-europa-texto">
+                        <h4>16</h4>
+                        <p>Seleções </p>
+                    </span>
                 </div>
-                <span id="primeiraDiv">
-                    <h4>16</h4>
-                    <p>Sele </p>
-                </span>
-                <div class="iconeInformativo">
+
+                <div class="container-info-europa">
                     <img src="/trabalhoFinal/icon/trabalho-em-equipe.png" alt="Ícone de edições">
+                    <span class="info-europa-texto">
+                        <h4>+ 100</h4>
+                        <p>Participações em Copa</p>
+                    </span>
                 </div>
-                <span id="segundaDiv">
-                    <h4>211</h4>
-                    <p>Seleções já participaram</p>
-                </span>
-                <div class="iconeInformativo">
+
+                <div class="container-info-europa">
                     <img src="/trabalhoFinal/icon/taca-de-ouro.png" alt="Ícone de edições">
+                    <span class="info-europa-texto">
+                        <h4>12</h4>
+                        <p>Títulos conquistados</p>
+                    </span>
                 </div>
-                <span id="terceiraDiv">
-                    <h4>8</h4>
-                    <p>Campeões diferentes</p>
-                </span>
-                <div class="iconeInformativo">
-                    <img src="/trabalhoFinal/icon/campo-de-futebol.png" alt="Ícone de edições">
-                </div>
-                <span id="quartaDiv">
-                    <h4>2.781</h4>
-                    <p>Partidas disputadas</p>
-                </span>
-                <div class="iconeInformativo">
-                    <img src="/trabalhoFinal/icon/gol-no-futebol.png" alt="Ícone de edições">
-                </div>
-                <span id="quintaDiv">
-                    <h4>7.489</h4>
-                    <p>Gols marcados</p>
-                </span>
+
             </div>
         </section>
     </section>
@@ -100,10 +90,29 @@
 
     <div class="separador"></div>
 
+    <section class="secao">
+        <div class="barra-de-controles">
+            <div class="barra-de-busca">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar seleção...">
+            </div>
+
+            <div class="filtro">
+                <i class="fa-solid fa-filter"></i>
+                <select>
+                    <option>Nome</option>
+                    <option>Participações</option>
+                    <option>Títulos</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <div class="separador"></div>
+
     <section class="secao" id="grid-secao">
         <div class="grid">
 
-            <div class="card">
+            <div class="card" data-nome="alemanha" data-participacoes="20" data-titulos="4">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/alemanha.png" alt="Ícone da Alemanha">
                 </div>
@@ -118,7 +127,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="ale()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="austria" data-participacoes="7" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/austria.png" alt="Ícone da Áustria">
                 </div>
@@ -132,7 +141,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="aus()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="belgica" data-participacoes="14" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/belgica.png" alt="Ícone da Bélgica">
                 </div>
@@ -147,7 +156,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="bel()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="bosnia" data-participacoes="1" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/bosnia.png"
                         alt="Ícone da Bósnia e Herzegovina">
@@ -163,7 +172,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="bos()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="croacia" data-participacoes="6" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/croacia.png" alt="Ícone da Croácia">
                 </div>
@@ -178,7 +187,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="cro()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="escocia" data-participacoes="8" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/escocia.png" alt="Ícone da Escócia">
                 </div>
@@ -193,7 +202,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="esc()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="espanha" data-participacoes="16" data-titulos="1">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/espanha.png" alt="Ícone da Espanha">
                 </div>
@@ -208,7 +217,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="esp()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="franca" data-participacoes="16" data-titulos="2">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/franca.png" alt="Ícone da França">
                 </div>
@@ -223,7 +232,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="fra()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="holanda" data-participacoes="11" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/holanda.png" alt="Ícone da Holanda">
                 </div>
@@ -238,7 +247,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="hol()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="inglaterra" data-participacoes="16" data-titulos="1">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/inglaterra.png" alt="Ícone da Inglaterra">
                 </div>
@@ -253,7 +262,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="ing()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="noruega" data-participacoes="3" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/noruega.png" alt="Ícone da Noruega">
                 </div>
@@ -268,7 +277,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="nor()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="portugal" data-participacoes="8" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/portugal.png" alt="Ícone do Portugal">
                 </div>
@@ -283,7 +292,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="por()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="repTcheca" data-participacoes="9" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/repTcheca.png"
                         alt="Ícone da República Tcheca">
@@ -300,7 +309,7 @@
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
 
             </div>
-            <div class="card">
+            <div class="card" data-nome="suecia" data-participacoes="12" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/suecia.png" alt="Ícone da Suécia">
                 </div>
@@ -315,7 +324,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="sue()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="suica" data-participacoes="12" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/suica.png" alt="Ícone da Suíça">
                 </div>
@@ -330,7 +339,7 @@
                 <span class="btncard"><button class="card_botao" type="button" onclick="sui()">Ver Histórico <i
                             id="seta" class="fa-solid fa-arrow-right"></i></button></span>
             </div>
-            <div class="card">
+            <div class="card" data-nome="turquia" data-participacoes="2" data-titulos="0">
                 <div class="iconePais">
                     <img src="/trabalhoFinal/pages/continentes/europa/icons/turquia.png" alt="Ícone da Turquia">
                 </div>
@@ -381,6 +390,7 @@
             </nav>
         </div>
     </footer>
+    <script src="/trabalhoFinal/pages/js/pages.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,6 @@ html {
 }
 
 * {
-    
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
@@ -296,4 +295,15 @@ h3 {
     
 }
 
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+    }
+
+    .informativo-homeScreen {
+        flex-direction: column;
+        
+    }
+
+}
 
