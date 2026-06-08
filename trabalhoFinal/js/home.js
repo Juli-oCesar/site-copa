@@ -1,104 +1,64 @@
+// menu hamburger
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('menu');
 
+if (hamburger && navMenu) {
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('nav-open');
+    });
+
+    // Fecha o menu ao clicar em um link
+    navMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('nav-open');
+        });
+    });
+}
+
+// continentes
 function continenteAF() {
-    window.location.href = "./pages/continentes/africa/africa.html"
-
+    window.location.href = '/trabalhoFinal/pages/continentes/africa/africa.html';
 }
 
 function continenteNA() {
-    window.location.href = "./pages/continentes/americaNorte/americaNorte.html"
-
+    window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/americaNorte.html';
 }
 
 function continenteSA() {
-    window.location.href = "./pages/continentes/americaSul/americaSul.html"
-
+    window.location.href = '/trabalhoFinal/pages/continentes/americaSul/americaSul.html';
 }
 
 function continenteAS() {
-    window.location.href = "./pages/continentes/asia/asia.html"
-
+    window.location.href = '/trabalhoFinal/pages/continentes/asia/asia.html';
 }
 
 function continenteEU() {
-    window.location.href = "./pages/continentes/europa/europa.html"
-
+    window.location.href = '/trabalhoFinal/pages/continentes/europa/europa.html';
 }
 
 function continenteOC() {
-    window.location.href = "./pages/continentes/oceania/oceania.html"
-
+    window.location.href = '/trabalhoFinal/pages/continentes/oceania/oceania.html';
 }
-
-// voltar para a pagina inicial
 
 function home() {
-    window.location.href = "/trabalhoFinal/index.html"
-
+    window.location.href = '/trabalhoFinal/index.html';
 }
 
-// paises
 
-function ale() {
-    window.location.href = "./pages/continentes/europa/paises/ale.html"
+const funcoes = {
+    AF: continenteAF,
+    NA: continenteNA,
+    SA: continenteSA,
+    AS: continenteAS,
+    EU: continenteEU,
+    OC: continenteOC,
 }
 
-function aus() {
-    window.location.href = "./pages/continentes/europa/paises/aus.html"
-}
-
-function bel() {
-    window.location.href = "./pages/continentes/europa/paises/bel.html"
-}
-
-function bos() {
-    window.location.href = "./pages/continentes/europa/paises/bos.html"
-}
-
-function cro() {
-    window.location.href = "./pages/continentes/europa/paises/cro.html"
-}
-
-function esc() {
-    window.location.href = "./pages/continentes/europa/paises/esc.html"
-}
-
-function esp() {
-    window.location.href = "./pages/continentes/europa/paises/esp.html"
-}
-
-function fra() {
-    window.location.href = "./pages/continentes/europa/paises/fra.html"
-}
-
-function hol() {
-    window.location.href = "./pages/continentes/europa/paises/hol.html"
-}
-
-function ing() {
-    window.location.href = "./pages/continentes/europa/paises/ing.html"
-}
-
-function nor() {
-    window.location.href = "./pages/continentes/europa/paises/nor.html"
-}
-
-function por() {
-    window.location.href = "./pages/continentes/europa/paises/por.html"
-}
-
-function rep() {
-    window.location.href = "./pages/continentes/europa/paises/rep.html"
-}
-
-function sue() {
-    window.location.href = "./pages/continentes/europa/paises/sue.html"
-}
-
-function sui() {
-    window.location.href = "./pages/continentes/europa/paises/sui.html"
-}
-
-function tur() {
-    window.location.href = "./pages/continentes/europa/paises/tur.html"
-}
-
+document.querySelectorAll('.card_botao').forEach((botao) => {
+  botao.addEventListener('click', () => {
+    const continente = botao.dataset.continente
+    funcoes[continente]?.() // chama a função correspondente
+  });
+});
