@@ -101,4 +101,7 @@ function sui() {
 function tur() {
     window.location.href = "./pages/continentes/europa/paises/tur.html"
 }
+function bra(){
+    window.location.href = "./pages/continentes/americaSul/paises/brasil.html"
+}
 

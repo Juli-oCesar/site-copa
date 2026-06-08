@@ -20,8 +20,209 @@
                 <li><a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a></li>
             </ul>         
         </nav>
-        </div>
-        
+        </div>        
     </header>
+
+   <section class="secao">
+        <div class="voltar">
+            <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
+        </div>
+
+        <section class="info-continente">
+
+            <div class="iconeContinente">
+                <img src="/trabalhoFinal/icon/iconeEuropa.png" alt="Ícone do continente Europa">
+            </div>
+            <div class="container-info">
+                <h2>Seleções Sul-americanas</h2>
+                <p>Explore o histórico das seleções sul-americanas na Copa do Mundo.</p>
+
+            </div>
+
+        </section>
+
+
+    </section>
+
+    <section class="secao" id="info-europa">
+        <section class="secao" id="secao-informativo-continente">
+            <div class="informativo-europa">
+
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/icon/futebol.png" alt="Ícone de edições">
+                    <span class="info-europa-texto">
+                        <h4>6</h4>
+                        <p>Seleções </p>
+                    </span>
+                </div>
+
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/icon/trabalho-em-equipe.png" alt="Ícone de edições">
+                    <span class="info-europa-texto">
+                        <h4>82</h4>
+                        <p>Participações em Copa</p>
+                    </span>
+                </div>
+
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/icon/taca-de-ouro.png" alt="Ícone de edições">
+                    <span class="info-europa-texto">
+                        <h4>10</h4>
+                        <p>Títulos conquistados</p>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+    <hr class="linha-topo">
+
+    <div class="separador"></div>
+
+    <section class="secao">
+        <div class="barra-de-controles">
+            <div class="barra-de-busca">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar seleção...">
+            </div>
+
+            <div class="filtro">
+                <i class="fa-solid fa-filter"></i>
+                <select>
+                    <option>Nome</option>
+                    <option>Participações</option>
+                    <option>Títulos</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <div class="separador"></div>
+
+    <section class="secao" id="grid-secao">
+        <div class="grid">
+
+            <div class="card" data-nome="alemanha" data-participacoes="20" data-titulos="4">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/europa/icons/alemanha.png" alt="Ícone da Alemanha">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Alemanha</h3>
+                        <p>Grupo</p>
+                    </div>
+
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" onclick="ale()">Ver Histórico <i
+                            id="seta" class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+            <div class="card" data-nome="austria" data-participacoes="7" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/europa/icons/austria.png" alt="Ícone da Áustria">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Áustria</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" onclick="aus()">Ver Histórico <i
+                            id="seta" class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+            <div class="card" data-nome="belgica" data-participacoes="14" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/europa/icons/belgica.png" alt="Ícone da Bélgica">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Bélgica</h3>
+                        <p>Grupo</p>
+                    </div>
+
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" onclick="bel()">Ver Histórico <i
+                            id="seta" class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+            <div class="card" data-nome="bosnia" data-participacoes="1" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/europa/icons/bosnia.png"
+                        alt="Ícone da Bósnia e Herzegovina">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Bósnia e Herz.</h3>
+                        <p>Grupo</p>
+                    </div>
+
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" onclick="bos()">Ver Histórico <i
+                            id="seta" class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+            <div class="card" data-nome="croacia" data-participacoes="6" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/europa/icons/croacia.png" alt="Ícone da Croácia">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Croácia</h3>
+                        <p>Grupo</p>
+                    </div>
+
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" onclick="cro()">Ver Histórico <i
+                            id="seta" class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+            <div class="card" data-nome="escocia" data-participacoes="8" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/europa/icons/escocia.png" alt="Ícone da Escócia">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Escócia</h3>
+                        <p>Grupo</p>
+                    </div>
+
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" onclick="esc()">Ver Histórico <i
+                            id="seta" class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+            </div>
+        </section>
+    </section>
+    
+ <div class="separador"></div>
+
+    <section class="secao" id="secao-informativo-continentes">
+        <h3>Seleções Europeias em Copas do Mundo</h3>
+        <hr class="linha">
+        <p>O continente europeu é o mais representado na história da Copa do Mundo, com um total de 34 países que já
+            participaram do torneio.
+            A Europa é conhecida por sua rica tradição futebolística e por abrigar algumas das seleções mais fortes e
+            bem-sucedidas do mundo.
+            Países como Alemanha, Itália, França, Espanha e Inglaterra são exemplos de nações europeias que conquistaram
+            títulos mundiais e
+            deixaram uma marca indelével na história do futebol. A diversidade de estilos de jogo e a rivalidade entre
+            as seleções europeias
+            tornam a participação desse continente na Copa emocionante para os fãs de futebol em todo o mundo.</p>
+    </section>
+
+    <div class="separador"></div>
+
+    <footer id="rodape">
+        <div class="container-footer">
+            <nav class="ancora-topo">
+                <a href="#topo"><img src="/trabalhoFinal/icon/ancora-topo.png" alt="Icone para voltar ao topo">Voltar ao
+                    topo</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="/trabalhoFinal/pages/js/pages.js"></script>
 </body>
 </html>
