@@ -68,7 +68,8 @@ if (select && container) {
 }
 
 
-// nevegacao paises
+// nevegacao paises da europa
+
 function ale() { window.location.href = '/trabalhoFinal/pages/continentes/europa/paises/ale.html'; }
 function aus() { window.location.href = '/trabalhoFinal/pages/continentes/europa/paises/aus.html'; }
 function bel() { window.location.href = '/trabalhoFinal/pages/continentes/europa/paises/bel.html'; }
