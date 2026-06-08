@@ -55,6 +55,9 @@ const funcoes = {
     EU: continenteEU,
     OC: continenteOC,
 }
+function bra(){
+    window.location.href = "./pages/continentes/americaSul/paises/brasil.html"
+}
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
   botao.addEventListener('click', () => {
