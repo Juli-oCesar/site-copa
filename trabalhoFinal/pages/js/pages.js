@@ -87,6 +87,17 @@ function sue() { window.location.href = '/trabalhoFinal/pages/continentes/europa
 function sui() { window.location.href = '/trabalhoFinal/pages/continentes/europa/paises/sui.html'; }
 function tur() { window.location.href = '/trabalhoFinal/pages/continentes/europa/paises/tur.html'; }
 
+
+//nevegação paises America Sul
+
+function bra() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html'; }
+function uru() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html'; }
+function col() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html'; }
+function equ() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/equador.html'; }
+function par() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html'; }
+function arg() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html'; }
+
+
 const funcoes = {
     ale: ale,
     aus: aus,
@@ -104,6 +115,12 @@ const funcoes = {
     sue: sue,
     sui: sui,
     tur: tur,
+    bra: bra,
+    uru: uru,
+    col: col,
+    equ: equ,
+    par: par,
+    arg: arg
 }
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
@@ -112,3 +129,4 @@ document.querySelectorAll('.card_botao').forEach((botao) => {
     funcoes[pais]?.() // chama a função correspondente
   });
 });
+

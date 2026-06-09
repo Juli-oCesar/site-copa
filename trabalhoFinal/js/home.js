@@ -58,6 +58,21 @@ const funcoes = {
 function bra(){
     window.location.href = "./pages/continentes/americaSul/paises/brasil.html"
 }
+function uru(){
+    window.location.href = "./pages/continentes/americaSul/paises/uruguai.html"
+}
+function col(){
+    window.location.href = "./pages/continentes/americaSul/paises/colombia.html"
+}
+function equ(){
+    window.location.href = "./pages/continentes/americaSul/paises/equador.html"
+}
+function par(){
+    window.location.href = "./pages/continentes/americaSul/paises/paraguai.html"
+}
+function arg(){
+    window.location.href = "./pages/continentes/americaSul/paises/argentina.html"
+}
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
   botao.addEventListener('click', () => {
