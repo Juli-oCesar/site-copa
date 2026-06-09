@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/trabalhoFinal/icon/icone.png">
     <link rel="stylesheet" href="/trabalhoFinal/css/continentes/style.css">
-    <link rel="stylesheet" href="/trabalhoFinal/pages/continentes/africa/africacss.css">
     <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>MUC - África</title>
@@ -40,64 +39,210 @@
         <div class="voltar">
             <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
         </div>
+
+        <section class="info-continente">
+            <div class="iconeContinente">
+                <img src="/trabalhoFinal/icon/iconeAfrica.png" alt="Ícone do continente África">
+            </div>
+            <div class="container-info">
+                <h2>Seleções Africanas</h2>
+                <p>Explore o histórico das seleções africanas na Copa do Mundo.</p>
+            </div>
+        </section>
     </section>
 
-    <section class="banner-africa">
-        <div class="overlay-africa">
-            <h1>África</h1>
-            <p>Seleções Africanas classificadas para a Copa do Mundo 2026</p>
+    <section class="secao" id="info-europa">
+        <section class="secao" id="secao-informativo-continente">
+            <div class="informativo-europa">
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/camisa.png" alt="Ícone de seleções">
+                    <span class="info-europa-texto">
+                        <h4>9</h4>
+                        <p>Seleções</p>
+                    </span>
+                </div>
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/verificar.png" alt="Ícone de participações">
+                    <span class="info-europa-texto">
+                        <h4>+ 50</h4>
+                        <p>Participações</p>
+                    </span>
+                </div>
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/vencedor.png" alt="Ícone de títulos">
+                    <span class="info-europa-texto">
+                        <h4>0</h4>
+                        <p>Títulos</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <hr class="linha-topo">
+    <div class="separador"></div>
+
+    <section class="secao">
+        <div class="barra-de-controles">
+            <div class="barra-de-busca">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar seleção...">
+            </div>
+            <div class="filtro">
+                <i class="fa-solid fa-filter"></i>
+                <select>
+                    <option>Nome</option>
+                    <option>Participações</option>
+                    <option>Títulos</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <div class="separador"></div>
+
+    <section class="secao" id="grid-secao">
+        <div class="grid">
+
+            <div class="card" data-nome="africadosul" data-participacoes="3" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/AfricadoSul.png" alt="Ícone da África do Sul">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>África do Sul</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="AfricaS">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="argelia" data-participacoes="4" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/Argelia.png" alt="Ícone da Argélia">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Argélia</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="Argelia">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="caboverde" data-participacoes="1" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/Caboverde.png" alt="Ícone de Cabo Verde">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Cabo Verde</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="CaboVerde">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="costadomarfim" data-participacoes="3" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/CostadoMarfim.png" alt="Ícone da Costa do Marfim">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Costa do Marfim</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="CostadoMarfim">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="egito" data-participacoes="3" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/Egito.png" alt="Ícone do Egito">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Egito</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="Egito">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="marrocos" data-participacoes="6" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/Marrocos.png" alt="Ícone de Marrocos">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Marrocos</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="Marrocos">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="republicadocongo" data-participacoes="1" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/RepublicaCongo.png" alt="Ícone da Rep. do Congo">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Rep. do Congo</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="RdCongo">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="senegal" data-participacoes="3" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/Senegal.png" alt="Ícone do Senegal">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Senegal</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="Senegal">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="tunisia" data-participacoes="6" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/africa/images/Tunisia.png" alt="Ícone da Tunísia">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Tunísia</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="Tunisia">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
         </div>
     </section>
 
-    <section class="secao times-africa">
-        <div class="PaisesAfrica">
+    <div class="separador"></div>
 
-            <a href="./paisesAfrica/Marrocos.html" class="africa-card">
-                <img src="./images/Marrocos.png" alt="Marrocos">
-                <h2>Marrocos</h2>
-            </a>
-
-            <a href="./paisesAfrica/Senegal.html" class="africa-card">
-                <img src="./images/Senegal.png" alt="Senegal">
-                <h2>Senegal</h2>
-            </a>
-
-            <a href="./paisesAfrica/Tunisia.html" class="africa-card">
-                <img src="./images/Tunisia.png" alt="Tunísia">
-                <h2>Tunísia</h2>
-            </a>
-
-            <a href="./paisesAfrica/Argelia.html" class="africa-card">
-                <img src="./images/Argelia.png" alt="Argélia">
-                <h2>Argélia</h2>
-            </a>
-
-            <a href="./paisesAfrica/Egito.html" class="africa-card">
-                <img src="./images/Egito.png" alt="Egito">
-                <h2>Egito</h2>
-            </a>
-
-            <a href="./paisesAfrica/CaboVerde.html" class="africa-card">
-                <img src="./images/Caboverde.png" alt="Cabo Verde">
-                <h2>Cabo Verde</h2>
-            </a>
-
-            <a href="./paisesAfrica/AfricaS.html" class="africa-card">
-                <img src="./images/AfricadoSul.png" alt="África do Sul">
-                <h2>África do Sul</h2>
-            </a>
-
-            <a href="./paisesAfrica/CostadoMarfim.html" class="africa-card">
-                <img src="./images/CostadoMarfim.png" alt="Costa do Marfim">
-                <h2>Costa do Marfim</h2>
-            </a>
-
-            <a href="./paisesAfrica/RdCongo.html" class="africa-card">
-                <img src="./images/RepublicaCongo.png" alt="Rep. do Congo">
-                <h2>Rep. do Congo</h2>
-            </a>
-
-        </div>
+    <section class="secao" id="secao-informativo-continentes">
+        <h3>Seleções Africanas em Copas do Mundo</h3>
+        <hr class="linha">
+        <p>O continente africano tem uma presença crescente na história da Copa do Mundo, com dezenas de países que já
+            participaram do torneio ao longo das décadas. A África é conhecida por seu futebol vibrante e apaixonado,
+            com seleções que cada vez mais desafiam as potências tradicionais. Países como Marrocos, Senegal e Costa do
+            Marfim têm se destacado nas últimas edições, demonstrando o alto nível técnico do futebol africano. O
+            continente segue em evolução constante, e a Copa do Mundo 2026 promete trazer novas surpresas das seleções
+            africanas para os fãs de futebol ao redor do mundo.</p>
     </section>
 
     <div class="separador"></div>
