@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <header id="topo">
+    <div id="topo"></div>
+    <header >
         <div class="container">
             <div class="logo">
                 <a href="/trabalhoFinal/index.html">
@@ -34,7 +35,6 @@
             </nav>
         </div>
     </header>
-
     <section class="secao">
         <div class="voltar">
             <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
@@ -50,8 +50,167 @@
             </div>
         </section>
     </section>
+    <section class="secao" id="info-europa">
+        <section class="secao" id="secao-informativo-continente">
+            <div class="informativo-europa">
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/camisa.png" alt="Ícone de seleções">
+                    <span class="info-europa-texto">
+                        <h4>6</h4>
+                        <p>Seleções</p>
+                    </span>
+                </div>
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/verificar.png" alt="Ícone de participações">
+                    <span class="info-europa-texto">
+                        <h4>78</h4>
+                        <p>Participações</p>
+                    </span>
+                </div>
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/vencedor.png" alt="Ícone de títulos">
+                    <span class="info-europa-texto">
+                        <h4>10</h4>
+                        <p>Títulos</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <hr class="linha-topo">
+    <div class="separador"></div>
 
-    <script src="/trabalhoFinal/pages/js/pages.js"></script>
+    <section class="secao">
+        <div class="barra-de-controles">
+            <div class="barra-de-busca">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar seleção...">
+            </div>
+            <div class="filtro">
+                <i class="fa-solid fa-filter"></i>
+                <select>
+                    <option>Nome</option>
+                    <option>Participações</option>
+                    <option>Títulos</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <div class="separador"></div>
+
+    <section class="secao" id="grid-secao">
+        <div class="grid">
+
+            <div class="card" data-nome="brasil" data-participacoes="23" data-titulos="5">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/icons/brazil-flag.png" alt="Ícone do Brasil">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Brasil</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="bra">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="argentina" data-participacoes="19" data-titulos="3">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/icons/argentina-flag.png" alt="Ícone da Argentina">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Argentina</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="arg">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="uruguai" data-participacoes="15" data-titulos="2">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/icons/uruguai-flag.png" alt="Ícone do Uruguai">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Uruguai</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="uru">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="colombia" data-participacoes="7" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/icons/colombia-flag.png" alt="Ícone da Colombia">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Colombia</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="col">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="equador" data-participacoes="5" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/icons/equador-flag.png" alt="Ícone do Equador">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Equador</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="equ">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+
+            <div class="card" data-nome="paraguai" data-participacoes="9" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/icons/paraguai-flag.png" alt="Ícone do Paraguai">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Paraguai</h3>
+                        <p>Grupo</p>
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard"><button class="card_botao" type="button" data-pais="par">Ver Histórico <i class="fa-solid fa-arrow-right"></i></button></span>
+            </div>
+         </div>
+    </section>
+    <section class="secao" id="secao-informativo-continentes">
+        <h3>Seleções Sul-americanas em Copas do Mundo</h3>
+        <hr class="linha">
+        <p>A América do Sul possui uma das histórias mais ricas e vitoriosas das Copas do Mundo.
+             O continente sediou a primeira edição do torneio, em 1930, no Uruguai, que também se tornou o primeiro campeão mundial.
+             Desde então, as seleções sul-americanas têm se destacado pela qualidade técnica, paixão pelo futebol e grande competitividade.
+             Brasil, Argentina e Uruguai acumulam diversos títulos mundiais e revelaram alguns dos maiores jogadores da história, como Pelé, Diego Maradona e Lionel Messi.
+             Ao longo das décadas, os países sul-americanos protagonizaram partidas memoráveis e conquistas importantes, consolidando a região como uma das principais potências do futebol mundial.
+</p>
+    </section>
+
+    <div class="separador"></div>
+
+    <footer id="rodape">
+        <div class="container-footer">
+            <nav class="ancora-topo">
+                <a href='#topo'>
+                    <img src="/trabalhoFinal/icon/ancora-topo.png" alt="Ícone para voltar ao topo">
+                    Voltar ao topo
+                </a>
+            </nav>
+        </div>
+    </footer>
+<script src="/trabalhoFinal/pages/js/pages.js"></script>
 </body>
 
 </html>
