@@ -98,7 +98,17 @@ function par() { window.location.href = '/trabalhoFinal/pages/continentes/americ
 function arg() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html'; }
 
 // navegação paises Asia
+function ara() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html'; }
+function cat() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html'; }
+function chi() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/china/china.html'; }
+function cos() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html'; }
+function con() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/coreiaNorte/coreiaNorte.html'; }
+function emi() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/emirados/emirados.html'; }
+function ind() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/indonesia/indonesia.html'; }
+function ira() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html'; }
+function irq() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html'; }
 function jap() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html'; }
+function kuw() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html'; }
 
 
 const funcoes = {
@@ -124,7 +134,17 @@ const funcoes = {
     equ: equ,
     par: par,
     arg: arg,
-    jap: jap
+    ara: ara,
+    cat: cat,
+    chi: chi,
+    cos: cos,
+    con: con,
+    emi: emi,
+    ind: ind,
+    ira: ira,
+    irq: irq,
+    jap: jap,
+    kuw: kuw
 }
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
