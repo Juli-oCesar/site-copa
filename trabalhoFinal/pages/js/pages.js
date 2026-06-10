@@ -97,6 +97,9 @@ function equ() { window.location.href = '/trabalhoFinal/pages/continentes/americ
 function par() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html'; }
 function arg() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html'; }
 
+// navegação paises Asia
+function jap() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html'; }
+
 
 const funcoes = {
     ale: ale,
@@ -120,7 +123,8 @@ const funcoes = {
     col: col,
     equ: equ,
     par: par,
-    arg: arg
+    arg: arg,
+    jap: jap
 }
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
@@ -129,4 +133,35 @@ document.querySelectorAll('.card_botao').forEach((botao) => {
     funcoes[pais]?.() // chama a função correspondente
   });
 });
+
+const btn = document.getElementById("btnAproveitamento");
+const card = document.getElementById("cardAproveitamento");
+const resultado = document.getElementById("resultadoAproveitamento");
+
+if (btn && card) {
+    btn.addEventListener("click", () => {
+
+        const jogos = Number(document.getElementById("jogos").textContent);
+        const vitorias = Number(document.getElementById("vitorias").textContent);
+        const empates = Number(document.getElementById("empates").textContent);
+
+        const pontosObtidos = (vitorias * 3) + empates;
+        const pontosPossiveis = jogos * 3;
+
+        const aproveitamento =
+            (pontosObtidos / pontosPossiveis) * 100;
+
+        resultado.innerHTML =
+            `<strong>Aproveitamento:</strong> ${aproveitamento.toFixed(2)}%`;
+
+        if (card.style.display === "table-row") {
+            card.style.display = "none";
+            btn.textContent = "Ver Aproveitamento";
+        } else {
+            card.style.display = "table-row";
+            btn.textContent = "Ocultar Aproveitamento";
+        }
+    });
+}
+
 
