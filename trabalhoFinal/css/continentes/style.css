@@ -198,7 +198,13 @@ header {
  
 
 
+<<<<<<< HEAD
 .informativo-europa {
+=======
+/* ===== STATS SECTION (CONTINENTE) ===== */
+.informativo-europa,
+.informativo-asia {
+>>>>>>> 34464d51dbeb7dfa7d41729ad79ca660390488a0
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: #fff;
@@ -212,7 +218,8 @@ header {
     width: 100%;
 }
 
-.container-info-europa {
+.container-info-europa,
+.container-info-asia {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -224,27 +231,31 @@ header {
     min-width: 18rem;
 }
 
-#info-europa {
+#info-europa,
+#info-asia {
     display: flex;
     align-items: center;
     padding: 1rem 3rem;
     margin-top: 0;
 }
 
-.info-europa-texto {
+.info-europa-texto,
+.info-asia-texto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.informativo-europa img {
+.informativo-europa img,
+.informativo-asia img {
     width: 5rem;
     height: 5rem;
     object-fit: contain;
     flex-shrink: 0;
 }
 
-.informativo-europa h4 {
+.informativo-europa h4,
+.informativo-asia h4 {
     font-size: clamp(2rem, 3vw, 3rem);
 }
 
@@ -521,11 +532,13 @@ header {
 
 
 @media (max-width: 900px) {
-    #info-europa {
+    #info-europa,
+    #info-asia {
         padding: 0 1rem;
     }
 
-    .container-info-europa {
+    .container-info-europa,
+    .container-info-asia {
         min-width: 15rem;
     }
 }
@@ -595,19 +608,22 @@ header {
         margin: 0 auto;
     }
 
-    .informativo-europa {
+    .informativo-europa,
+    .informativo-asia {
         flex-direction: column;
         align-items: stretch;
     }
 
-    .container-info-europa {
+    .container-info-europa,
+    .container-info-asia {
         min-width: unset;
         width: 100%;
     }
 
 
 
-    #info-europa {
+    #info-europa,
+    #info-asia {
         padding: 1.5rem 1.5rem;
     }
 
