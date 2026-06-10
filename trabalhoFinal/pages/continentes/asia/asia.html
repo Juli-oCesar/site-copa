@@ -1,57 +1,451 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/trabalhoFinal/icon/icone.png">
-    <link rel="stylesheet" href="/trabalhoFinal/css/continentes/style.css">
-    <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/trabalhoFinal/icon/icone.png" />
+    <link rel="stylesheet" href="/trabalhoFinal/css/continentes/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e88a911cfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>MUC - Ásia</title>
-</head>
+  </head>
 
-<body>
-    <header id="topo">
-        <div class="container">
-            <div class="logo">
-                <a href="/trabalhoFinal/index.html">
-                    <img src="/trabalhoFinal/pages/pagesIcon/taca_copa.png" alt="Logo Copa do Mundo">
-                    <b>Continente Asiático</b>
-                </a>
-            </div>
-            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="menu" id="menu">
-                <ul>
-                    <li><a href="/trabalhoFinal/pages/header/selecoes.html"><b>Seleções</b></a></li>
-                    <li><a href="/trabalhoFinal/pages/header/edicao.html"><b>Edição 2026</b></a></li>
-                    <li><a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a></li>
-                </ul>
-            </nav>
+  <body>
+    <div id="topo"></div>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="/trabalhoFinal/index.html">
+            <img
+              src="/trabalhoFinal/pages/pagesIcon/taca_copa.png"
+              alt="Logo Copa do Mundo"
+            />
+            <b>Continente Asiático</b>
+          </a>
         </div>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="menu" id="menu">
+          <ul>
+            <li>
+              <a href="/trabalhoFinal/pages/header/selecoes.html"
+                ><b>Seleções</b></a
+              >
+            </li>
+            <li>
+              <a href="/trabalhoFinal/pages/header/edicao.html"
+                ><b>Edição 2026</b></a
+              >
+            </li>
+            <li>
+              <a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="secao">
-        <div class="voltar">
-            <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
-        </div>
+      <div class="voltar">
+        <a href="/trabalhoFinal/index.html"
+          ><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a
+        >
+      </div>
 
-        <section class="info-continente">
-            <div class="iconeContinente">
-                <img src="/trabalhoFinal/icon/iconeAsia.png" alt="Ícone da Ásia">
-            </div>
-            <div class="container-info">
-                <h2>Seleções Asiáticas</h2>
-                <p>Explore o histórico das seleções asiáticas na Copa do Mundo.</p>
-            </div>
-        </section>
+      <section class="info-continente">
+        <div class="iconeContinente">
+          <img
+            src="/trabalhoFinal/icon/iconeAsia.png"
+            alt="Ícone do continente Ásia"
+          />
+        </div>
+        <div class="container-info">
+          <h2>Seleções Asiáticas</h2>
+          <p>Explore o histórico das seleções asiáticas na Copa do Mundo.</p>
+        </div>
+      </section>
     </section>
 
-    <script src="/trabalhoFinal/pages/js/pages.js"></script>
-</body>
+    <section class="secao" id="info-asia">
+      <section class="secao" id="secao-informativo-continente">
+        <div class="informativo-asia">
+          <div class="container-info-asia">
+            <img
+              src="/trabalhoFinal/pages/pagesIcon/camisa.png"
+              alt="Ícone de seleções"
+            />
+            <span class="info-asia-texto">
+              <h4>11</h4>
+              <p>Seleções</p>
+            </span>
+          </div>
+          <div class="container-info-asia">
+            <img
+              src="/trabalhoFinal/pages/pagesIcon/verificar.png"
+              alt="Ícone de participações"
+            />
+            <span class="info-asia-texto">
+              <h4>38</h4>
+              <p>Participações</p>
+            </span>
+          </div>
+          <div class="container-info-asia">
+            <img
+              src="/trabalhoFinal/pages/pagesIcon/vencedor.png"
+              alt="Ícone de títulos"
+            />
+            <span class="info-asia-texto">
+              <h4>0</h4>
+              <p>Títulos</p>
+            </span>
+          </div>
+        </div>
+      </section>
+    </section>
 
+    <hr class="linha-topo" />
+    <div class="separador"></div>
+
+    <section class="secao">
+      <div class="barra-de-controles">
+        <div class="barra-de-busca">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Buscar seleção..." />
+        </div>
+        <div class="filtro">
+          <i class="fa-solid fa-filter"></i>
+          <select>
+            <option>Nome</option>
+            <option>Participações</option>
+            <option>Títulos</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <div class="separador"></div>
+
+    <section class="secao" id="grid-secao">
+      <div class="grid">
+        <div
+          class="card"
+          data-nome="arabiasaudita"
+          data-participacoes="6"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/arabia.png"
+              alt="Ícone da Arábia Saudita"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Arábia Saudita</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="ara">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="catar"
+          data-participacoes="1"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/catar.png"
+              alt="Ícone do Catar"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Catar</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="cat">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="china"
+          data-participacoes="1"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/china.png"
+              alt="Ícone da China"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>China</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="chi">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="coreiadosul"
+          data-participacoes="11"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/coreiaSul.png"
+              alt="Ícone da Coreia do Sul"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Coreia do Sul</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="cos">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="coreiadonorte"
+          data-participacoes="2"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/coreiaNorte.png"
+              alt="Ícone da Coreia do Norte"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Coreia do Norte</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="con">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="emiradosarabesunidos"
+          data-participacoes="1"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/emirados.png"
+              alt="Ícone dos Emirados Árabes Unidos"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Emirados Árabes</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="emi">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="indonesia"
+          data-participacoes="1"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/indonesia.png"
+              alt="Ícone da Indonésia"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Indonésia</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="ind">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="ira"
+          data-participacoes="6"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/ira.png"
+              alt="Ícone do Irã"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Irã</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="ira">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="iraque"
+          data-participacoes="1"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/iraque.png"
+              alt="Ícone do Iraque"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Iraque</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="irq">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="japao"
+          data-participacoes="7"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/japao.png"
+              alt="Ícone do Japão"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Japão</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="jap">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+
+        <div
+          class="card"
+          data-nome="kuwait"
+          data-participacoes="1"
+          data-titulos="0"
+        >
+          <div class="iconePais">
+            <img
+              src="/trabalhoFinal/pages/continentes/asia/paises/imgs/kuwait.png"
+              alt="Ícone do Kuwait"
+            />
+          </div>
+          <div class="card-content">
+            <div class="topo-card">
+              <h3>Kuwait</h3>
+              <p>Grupo</p>
+            </div>
+          </div>
+          <div class="separador-card"></div>
+          <span class="btncard"
+            ><button class="card_botao" type="button" data-pais="kuw">
+              Ver Histórico <i class="fa-solid fa-arrow-right"></i></button
+          ></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="separador"></div>
+
+    <section class="secao" id="secao-informativo-continentes">
+      <h3>Seleções Asiáticas em Copas do Mundo</h3>
+      <hr class="linha" />
+      <p>
+        O continente asiático ganhou presença constante na Copa do Mundo a
+        partir do fim do século XX, com seleções cada vez mais competitivas e
+        organizadas. Coreia do Sul e Japão são os maiores destaques da região: a
+        Coreia do Sul chegou à semifinal em 2002, enquanto o Japão se consolidou
+        como participante frequente desde 1998. Irã e Arábia Saudita também têm
+        histórico relevante no torneio, somando várias participações. Até a Copa
+        de 2022, nenhuma seleção asiática conquistou o título mundial, mas o
+        continente segue em crescimento técnico e ocupa um espaço cada vez mais
+        importante no futebol internacional.
+      </p>
+    </section>
+
+    <div class="separador"></div>
+
+    <footer id="rodape">
+      <div class="container-footer">
+        <nav class="ancora-topo">
+          <a href="#topo">
+            <img
+              src="/trabalhoFinal/icon/ancora-topo.png"
+              alt="Ícone para voltar ao topo"
+            />
+            Voltar ao topo
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="/trabalhoFinal/pages/js/pages.js"></script>
+  </body>
 </html>

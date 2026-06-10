@@ -97,6 +97,9 @@ function equ() { window.location.href = '/trabalhoFinal/pages/continentes/americ
 function par() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html'; }
 function arg() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html'; }
 
+// navegação paises Asia
+function jap() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html'; }
+
 
 const funcoes = {
     ale: ale,
@@ -120,7 +123,8 @@ const funcoes = {
     col: col,
     equ: equ,
     par: par,
-    arg: arg
+    arg: arg,
+    jap: jap
 }
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
