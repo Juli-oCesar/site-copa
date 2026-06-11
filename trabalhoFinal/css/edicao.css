@@ -410,7 +410,9 @@ header {
 .cidades-link {
     color: rgb(187, 159, 0);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    background: none;
+    cursor: pointer;
 }
 
 

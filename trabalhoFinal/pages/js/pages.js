@@ -266,3 +266,14 @@ const botaoGrupos = document.getElementById('btngrupos');
 botaoGrupos.addEventListener("click", () => {
     abrirGrupos ();
 });
+
+// otao para abrir a page das cidades
+
+function abrirCidades () { window.location.href ="/trabalhoFinal/pages/cidades/cidades.html"; }
+
+const botaoCidades = document.getElementById('btncidades');
+
+botaoCidades.addEventListener("click", () => {
+    abrirCidades ();
+});
+
