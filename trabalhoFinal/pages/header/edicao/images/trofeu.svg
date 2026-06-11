@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ffe066"/>
+      <stop offset="50%"  stop-color="#ffc200"/>
+      <stop offset="100%" stop-color="#b87800"/>
+    </linearGradient>
+    <linearGradient id="gd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#ffd740"/>
+      <stop offset="100%" stop-color="#9a6800"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4"  y="28" width="24" height="3"   rx="1" fill="url(#g)"/>
+  <rect x="7"  y="24" width="18" height="4.5" rx="1" fill="url(#gd)"/>
+  <rect x="13" y="17" width="6"  height="8"   rx="1" fill="url(#gd)"/>
+  <path d="M4 3 Q4 1 16 1 Q28 1 28 3 L26 16.5 Q25 17 16 17 Q7 17 6 16.5 Z" fill="url(#g)"/>
+  <ellipse cx="12" cy="8" rx="3" ry="5.5" fill="#fff8d0" opacity="0.25" transform="rotate(-12 12 8)"/>
+  <path d="M4 4 Q0 4 0 9 Q0 14 4 14"   fill="none" stroke="#ffc200" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 4 Q32 4 32 9 Q32 14 28 14" fill="none" stroke="#ffc200" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="16,6 17.2,9.5 21,9.5 18.2,11.5 19.2,15 16,13 12.8,15 13.8,11.5 11,9.5 14.8,9.5"
+           fill="#ffd740" stroke="#c08800" stroke-width="0.4"/>
+</svg>

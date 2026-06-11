@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="302 48 76 50">
+
+  <!-- Pessoa esquerda -->
+  <circle cx="318" cy="62" r="5.5" fill="none" stroke="rgb(90,124,0)" stroke-width="1.8"/>
+  <path d="M308 92 C308 78 312 74 318 74 C324 74 328 78 328 92"
+        fill="none" stroke="rgb(90,124,0)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Pessoa direita -->
+  <circle cx="362" cy="62" r="5.5" fill="none" stroke="rgb(90,124,0)" stroke-width="1.8"/>
+  <path d="M352 92 C352 78 356 74 362 74 C368 74 372 78 372 92"
+        fill="none" stroke="rgb(90,124,0)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Pessoa central -->
+  <circle cx="340" cy="56" r="7" fill="none" stroke="rgb(90,124,0)" stroke-width="2"/>
+  <path d="M326 92 C326 75 331 70 340 70 C349 70 354 75 354 92"
+        fill="none" stroke="rgb(90,124,0)" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="silver" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%"   stop-color="#f0f0f0"/>
+      <stop offset="35%"  stop-color="#c8c8c8"/>
+      <stop offset="70%"  stop-color="#909090"/>
+      <stop offset="100%" stop-color="#606060"/>
+    </linearGradient>
+    <linearGradient id="silver-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#d0d0d0"/>
+      <stop offset="100%" stop-color="#505050"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra -->
+  <polygon points="16,2 19.5,11.5 30,11.5 21.5,17.5 24.5,27 16,21 7.5,27 10.5,17.5 2,11.5 12.5,11.5"
+           fill="#404040" opacity="0.2" transform="translate(0.5,0.8)"/>
+  <!-- estrela -->
+  <polygon points="16,2 19.5,11.5 30,11.5 21.5,17.5 24.5,27 16,21 7.5,27 10.5,17.5 2,11.5 12.5,11.5"
+           fill="url(#silver)" stroke="url(#silver-stroke)" stroke-width="0.6" stroke-linejoin="round"/>
+  <!-- reflexos -->
+  <polygon points="16,4 18.5,10.5 16,10 13,9" fill="white" opacity="0.45"/>
+  <ellipse cx="13" cy="12" rx="3" ry="2" fill="white" opacity="0.3" transform="rotate(-20 13 12)"/>
+</svg>

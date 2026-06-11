@@ -4,86 +4,501 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/Trabalho Final/Icon/logo.png">
+    <link rel="icon" href="/trabalhoFinal/icon/icone.png">
     <link rel="stylesheet" href="/trabalhoFinal/css/edicao.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
     <title>Edição 2026</title>
 </head>
 
 <body>
-    <div id="topo"></div>
+
+    <!-- ===== HEADER ===== -->
     <header>
         <div class="container">
             <div class="logo">
                 <a href="/trabalhoFinal/index.html">
                     <img src="/trabalhoFinal/pages/pagesIcon/taca_copa.png" alt="Logo Copa do Mundo">
-                    <b><i>2026</i></b>
+                    <span>COPA DO MUNDO <b class="ano">2026</b></span>
                 </a>
             </div>
             <button class="hamburger" id="hamburger" aria-label="Abrir menu">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
             <nav class="menu" id="menu">
                 <ul>
-                    <li><a href="/trabalhoFinal/pages/header/selecoes.html"><b>Seleções</b></a></li>
-                    <li><a href="/trabalhoFinal/pages/header/edicao.html"><b>Edição 2026</b></a></li>
-                    <li><a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a></li>
+                    <li><a href="/trabalhoFinal/index.html">Início</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/selecoes.html">Seleções</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/edicao.html" class="ativo">Edição 2026</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/sobre.html">Sobre</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="secao-corpo">
-        <section class="secao-topo">
-            <div class="voltar">
-                <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
-            </div>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-conteudo">
+            <p class="hero-tag">A MAIOR COPA DE TODOS OS TEMPOS</p>
+            <h1 class="hero-titulo">COPA DO MUNDO<br><span class="hero-ano">2026</span></h1>
+            <p class="hero-desc">Três países sede, 48 seleções e um único sonho:</p>
+            <p class="hero-desc">a taça mais cobiçada do futebol.</p>
 
-            <section class="info-continente">
-                <!-- <div class="iconeContinente">
-                <img src="/trabalhoFinal/icon/iconeEuropa.png" alt="Ícone do continente Europa">
-            </div> -->
-                <div class="container-info">
-                    <h2>COPA DO MUNDO</h2>
-                    <h3>2026</h3>
-                    <p>Três países sede, 48 seleções e um único sonho:</p>
-                    <p>a taça mais cobiçada do futebol.</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <i class="fa-regular fa-calendar"></i>
+                    <div>
+                        <span class="stat-label">Período</span>
+                        <span class="stat-valor">11 de junho –<br>19 de julho de 2026</span>
+                    </div>
                 </div>
-            </section>
-        </section>
-    </section>
-
-    <section class="secao-corpo" id="info-europa">
-        <section class="secao" id="secao-informativo-continente">
-            <div class="informativo-europa">
-                <div class="container-info-edicao" id="primeiro-container">
-                    <img src="/trabalhoFinal/pages/pagesIcon/camisa.png" alt="Ícone de seleções">
-                    <span class="info-europa-texto">
-                        <h4>16</h4>
-                        <p>Seleções</p>
-                    </span>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <i class="fa-solid fa-users"></i>
+                    <div>
+                        <span class="stat-numero">48</span>
+                        <span class="stat-label">Seleções participantes</span>
+                    </div>
                 </div>
-                <div class="separdor-vertical" id="secao-informativo-continente"></div>
-                <div class="container-info-edicao" id="segundo-container">
-                    <img src="/trabalhoFinal/pages/pagesIcon/verificar.png" alt="Ícone de participações">
-                    <span class="info-europa-texto">
-                        <h4>+ 100</h4>
-                        <p>Participações</p>
-                    </span>
-                </div>
-                <div class="separdor-vertical" id="secao-informativo-continente"></div>
-                <div class="container-info-edicao" id="terceiro-container">
-                    <img src="/trabalhoFinal/pages/pagesIcon/vencedor.png" alt="Ícone de títulos">
-                    <span class="info-europa-texto">
-                        <h4>12</h4>
-                        <p>Títulos</p>
-                    </span>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <span class="stat-numero">16</span>
+                        <span class="stat-label">Cidades sede</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="hero-imagem">
+            <img src="/trabalhoFinal/pages/header/edicao/images/logoFIFA.png" alt="Logo fifa">
+        </div>
     </section>
+
+
+    <section class="primeira-fila">
+        <div class="card-edicao" id="card-paises">
+            <p class="card-titulo">PAÍSES-SEDE</p>
+            <div class="card-paises">
+                <div class="card-pais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/paises/icons/mexico.png" alt="México">
+                    <div>
+                        <span class="pais-nome">México</span>
+                        <span class="pais-sub">3 cidades sede</span>
+                    </div>
+                </div>
+                <div class="card-pais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/paises/icons/usa.png" alt="EUA">
+                    <div>
+                        <span class="pais-nome">Estados Unidos</span>
+                        <span class="pais-sub">11 cidades sede</span>
+                    </div>
+                </div>
+                <div class="card-pais">
+                    <img src="/trabalhoFinal/pages/continentes/americaSul/paises/icons/canada.png" alt="Canadá">
+                    <div>
+                        <span class="pais-nome">Canadá</span>
+                        <span class="pais-sub">2 cidades sede</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Card: Período -->
+        <div class="card-edicao" id="card-periodo">
+            <div class="icone-periodo">
+                <img src="/trabalhoFinal/pages/header/edicao/images/calendario.svg" alt="icone calendario">
+            </div>
+            <div class="conteudo-periodo">
+                <p class="card-titulo">PERÍODO</p>
+                <div>
+                    <span class="periodo-data">11 de junho –</span>
+                    <span class="periodo-data">19 de julho de 2026</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card: Formato -->
+        <div class="card-edicao" id="card-formato">
+            <div class="icone-formato">
+                <img src="/trabalhoFinal/pages/header/edicao/images/team.svg" alt="icone time">
+            </div>
+            <div class="conteudo-formato">
+                <p class="card-titulo">FORMATO</p>
+                <ul class="card-formato-lista">
+                    <li><i class="fa-solid fa-check check-verde"></i> 48 seleções</li>
+                    <li><i class="fa-solid fa-check check-verde"></i> 16 grupos com 3 seleções cada</li>
+                    <li><i class="fa-solid fa-check check-verde"></i> Fase eliminatória com 32 equipes</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- ===== GRID DE CARDS ===== -->
+    <section class="secao-grid">
+
+        <!-- Card: Fase de Grupos -->
+        <div class="card-edicao card-medio" id="card-grupos">
+            <div class="card-header-linha">
+                <p class="card-titulo">FASE DE GRUPOS</p>
+                <a href="#" class="card-link">Ver grupos <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="grupos-grid">
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO A</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoA/africaSul.png"
+                            alt="bandeira africaSul"> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoA/coreiaSul.png"
+                            alt="bandeira coreiaSul"> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoA/mexico.png"
+                            alt="bandeira mexico"> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoA/tchequia.png"
+                            alt="bandeira tchequia"> Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO B</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoB/bosnia.png"
+                            alt="bandeira bosnia"> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoB/canada.png"
+                            alt="bandeira canada"> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoB/catar.png"
+                            alt="bandeira catar"> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoB/suica.png"
+                            alt="bandeira suica"> Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO C</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoC/brasil.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoC/escocia.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoC/haiti.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoC/marrocos.png" alt="">
+                        Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO D</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoD/australia.png" alt="">
+                        Seleção</div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoD/eua.png" alt=""> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoD/paraguai.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoD/turquia.png" alt="">
+                        Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO E</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoE/alemanha.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoE/costaMarfim.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoE/curacao.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoE/equador.png" alt="">
+                        Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO F</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoF/holanda.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoF/japao.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoF/suecia.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoF/tunisia.png" alt="">
+                        Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO G</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoG/belgica.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoG/egito.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoG/ira.png" alt=""> Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoG/novaZel.png" alt="">
+                        Seleção
+                    </div>
+                </div>
+                <div class="grupo-box">
+                    <p class="grupo-label">GRUPO H</p>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoH/arabia.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoH/caboVerde.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoH/espanha.png" alt="">
+                        Seleção
+                    </div>
+                    <div class="grupo-selecao"><img src="/trabalhoFinal/pages/pagesIcon/grupoH/uruguai.png" alt="">
+                        Seleção
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn-grupos">Ver todos os grupos</a>
+        </div>
+
+        <!-- Card: Calendário -->
+        <div class="card-edicao card-estreito" id="card-calendario">
+            <div class="card-header-linha">
+                <p class="card-titulo">CALENDÁRIO</p>
+            </div>
+            <ul class="calendario-lista">
+                <li class="cal-item">
+                    <div class="cal-icone"><img id="icone-jogador"
+                            src="/trabalhoFinal/pages/header/edicao/images/jogador.png" alt="jogador chutando bola"></i>
+                    </div>
+                    <div class="cal-info">
+                        <span class="cal-fase">Fase de grupos</span>
+                        <span class="cal-data">11 de junho – 27 de junho</span>
+                    </div>
+                </li>
+                <li class="cal-item">
+                    <div class="cal-icone"><img src="/trabalhoFinal/pages/header/edicao/images/estrelaPrata.svg"
+                            alt="estrela prata"></div>
+                    <div class="cal-info">
+                        <span class="cal-fase">Oitavas de final</span>
+                        <span class="cal-data">28 de junho – 03 de julho</span>
+                    </div>
+                </li>
+                <li class="cal-item">
+                    <div class="cal-icone"><img src="/trabalhoFinal/pages/header/edicao/images/estrelaDourada.svg"
+                            alt="estrela prata"></i></div>
+                    <div class="cal-info">
+                        <span class="cal-fase">Quartas de final</span>
+                        <span class="cal-data">04 de julho – 07 de julho</span>
+                    </div>
+                </li>
+                <li class="cal-item">
+                    <div class="cal-icone"><img src="/trabalhoFinal/pages/header/edicao/images/medalhaBronze.svg"
+                            alt="medalha bronze"></i></div>
+                    <div class="cal-info">
+                        <span class="cal-fase">Semifinais</span>
+                        <span class="cal-data">14 e 15 de julho</span>
+                    </div>
+                </li>
+                <li class="cal-item">
+                    <div class="cal-icone"><img src="/trabalhoFinal/pages/header/edicao/images/trofeu.svg" alt="trofeu">
+                    </div>
+                    <div class="cal-info">
+                        <span class="cal-fase">Final</span>
+                        <span class="cal-data">19 de julho de 2026</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
+  <div class="card-edicao card-largo" id="card-cidades">
+    <div class="card-header-linha">
+      <p class="card-titulo">CIDADES-SEDE</p>
+      <a href="#" class="card-link">Ver todas <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+ 
+    <div class="cidades-carrossel-wrapper">
+      <div class="cidades-carrossel" id="cidades-lista">
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/atlanta.png" alt="atlanta"></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Atlanta</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/boston.png" alt="boston"></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Boston</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/cidadeMexico.png" alt="cidade do mexico"></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Cidade do México</p>
+            <p class="cidade-pais">México</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/dallas.jpg" alt="dallas"></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Dallas</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/guadalajara.png" alt="dallas"></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Guadalajara</p>
+            <p class="cidade-pais">México</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/houston.png" alt="dallas"></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Houston</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/ny.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Nova York / Nova Jersey</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">MetLife Stadium</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/losAngeles.png" alt=""></i></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Los Angeles</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">SoFi Stadium</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/toronto.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Toronto</p>
+            <p class="cidade-pais">Canadá</p>
+            <span class="cidade-estadio">BMO Field</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/kansas.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Kansas City</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/vancouver.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Vancouver</p>
+            <p class="cidade-pais">Canadá</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/monterrey.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Monterrey</p>
+            <p class="cidade-pais">México</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/miami.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Miami</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/filadelfia.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Filadélfia</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/sanFrancisco.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">San Francisco</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+        <div class="cidade-item">
+          <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/seattle.png" alt=""></div>
+          <div class="cidade-info">
+            <p class="cidade-nome">Seattle</p>
+            <p class="cidade-pais">Estados Unidos</p>
+            <span class="cidade-estadio">Saiba mais</span>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+ 
+    <div class="carrossel-dots" id="carrossel-dots"></div>
+  </div>
+
+    </section>
+
+    <!-- ===== RODAPÉ CTA ===== -->
+    <section class="cta-rodape">
+        <div class="cta-rodape-inner">
+            <div class="cta-conteudo">
+                <img src="/trabalhoFinal/pages/pagesIcon/taca_copa.png" alt="Taça">
+                <div>
+                    <p class="cta-titulo">Prepare-se para a maior celebração do futebol!</p>
+                    <p class="cta-sub">Três nações. Um mundo. Uma taça.</p>
+                </div>
+            </div>
+            <a href="#" class="cta-btn">Acompanhar novidades <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <script src="/trabalhoFinal/pages/js/pages.js"></script>
+  
+
 </body>
 
 </html>

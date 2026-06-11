@@ -185,3 +185,54 @@ if (btn && card) {
 }
 
 
+// carrossel 
+
+    (function () {
+      const lista    = document.getElementById('cidades-lista');
+      const dotsEl   = document.getElementById('carrossel-dots');
+      const items    = lista.querySelectorAll('.cidade-item');
+      const PER_PAGE = 4;
+      const total    = items.length;
+      const pages    = Math.ceil(total / PER_PAGE);
+      let   current  = 0;
+ 
+      dotsEl.innerHTML = '';
+      for (let i = 0; i < pages; i++) {
+        const d = document.createElement('span');
+        d.className = 'dot' + (i === 0 ? ' ativo' : '');
+        d.addEventListener('click', () => goTo(i));
+        dotsEl.appendChild(d);
+      }
+ 
+      function goTo(page) {
+        current = Math.max(0, Math.min(page, pages - 1));
+ 
+        /* largura real de um item + gap */
+        const itemW = items[0].getBoundingClientRect().width;
+        const gap   = 12;
+        const shift = current * PER_PAGE * (itemW + gap);
+ 
+        lista.style.transform = `translateX(-${shift}px)`;
+ 
+        dotsEl.querySelectorAll('.dot').forEach((d, i) => {
+          d.classList.toggle('ativo', i === current);
+        });
+      }
+ 
+      let startX = 0;
+      lista.addEventListener('touchstart', e => {
+        startX = e.touches[0].clientX;
+      }, { passive: true });
+ 
+      lista.addEventListener('touchend', e => {
+        const diff = startX - e.changedTouches[0].clientX;
+        if (diff >  40) goTo(current + 1);
+        if (diff < -40) goTo(current - 1);
+      }, { passive: true });
+ 
+      /* ── teclado (acessibilidade) ── */
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowRight') goTo(current + 1);
+        if (e.key === 'ArrowLeft')  goTo(current - 1);
+      });
+    })();

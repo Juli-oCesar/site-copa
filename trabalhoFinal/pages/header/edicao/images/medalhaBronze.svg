@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#e8a96a"/>
+      <stop offset="40%"  stop-color="#c47a3a"/>
+      <stop offset="100%" stop-color="#7a4010"/>
+    </linearGradient>
+    <linearGradient id="bz2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#f0c090"/>
+      <stop offset="100%" stop-color="#a05820"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#c0392b"/>
+      <stop offset="50%"  stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fita -->
+  <polygon points="13,1 16,1 16,11 11,15" fill="url(#ribbon)"/>
+  <polygon points="16,1 19,1 21,15 16,11" fill="#a93226"/>
+
+  <!-- Medalha -->
+  <circle cx="16" cy="22" r="9"   fill="url(#bz)"/>
+  <circle cx="16" cy="22" r="7.5" fill="none" stroke="#e8a96a" stroke-width="0.8" opacity="0.6"/>
+  <circle cx="16" cy="22" r="6.5" fill="url(#bz2)"/>
+  <ellipse cx="13.5" cy="19" rx="2" ry="3" fill="#f5dcc0" opacity="0.3" transform="rotate(-20 13.5 19)"/>
+  <text x="16" y="26" text-anchor="middle" font-family="Arial" font-size="8" font-weight="700" fill="#5a2800">3</text>
+</svg>
