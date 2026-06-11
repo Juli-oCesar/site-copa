@@ -21,37 +21,19 @@ if (hamburger && navMenu) {
 // barra de busca
 const input = document.querySelector('.barra-de-busca input');
 
-if (input) {
-    input.addEventListener('input', () => {
-        const valor = input.value.toLowerCase();
+    })();
 
-        document.querySelectorAll('.card').forEach(card => {
-            const nomeEl = card.querySelector('h3');
-            if (!nomeEl) return;
-            const nome = nomeEl.textContent.toLowerCase();
-            card.style.display = nome.includes(valor) ? 'grid' : 'none';
-        });
+// botao para abrir a page dos grupos
+
+function abrirGrupos () { window.location.href = "/trabalhoFinal/pages/grupos/grupos.html"; }
+
+const botaoGrupos = document.getElementById('btngrupos');
+
+if (botaoGrupos) {
+    botaoGrupos.addEventListener("click", () => {
+        abrirGrupos();
     });
 }
-
-// filtro
-const select = document.querySelector('.filtro select');
-const container = document.querySelector('.grid');
-
-if (select && container) {
-    select.addEventListener('change', () => {
-        const tipo = select.value;
-        const cards = Array.from(container.querySelectorAll('.card'));
-
-        cards.sort((a, b) => {
-            if (tipo === 'Nome') return a.dataset.nome.localeCompare(b.dataset.nome);
-            if (tipo === 'Participações') return Number(b.dataset.participacoes) - Number(a.dataset.participacoes);
-            if (tipo === 'Títulos') return Number(b.dataset.titulos) - Number(a.dataset.titulos);
-            return 0;
-        });
-
-        cards.forEach(card => {
-            const participacoes = Number(card.dataset.participacoes);
             const titulos = Number(card.dataset.titulos);
 
             if (tipo === 'Títulos' && titulos === 0) {
@@ -258,3 +240,31 @@ if(btnConvocacao && cardConvocacao){
     })();
 
 
+<<<<<<< HEAD
+=======
+    btnConvocacao.addEventListener("click", () => {
+
+        if(cardConvocacao.style.display === "block"){
+            cardConvocacao.style.display = "none";
+            btnConvocacao.textContent = "Ver Convocados";
+        }
+        else{
+            cardConvocacao.style.display = "block";
+            btnConvocacao.textContent = "Ocultar Convocados";
+        }
+
+    });
+
+}
+
+
+// botao para abrir a page dos grupos
+
+function abrirGrupos () { window.location.href = "/trabalhoFinal/pages/grupos/grupos.html"; }
+
+const botaoGrupos = document.getElementById('btngrupos');
+
+botaoGrupos.addEventListener("click", () => {
+    abrirGrupos ();
+});
+>>>>>>> 910200bf668fe2a91885df4de9963984a67dca81

@@ -242,7 +242,7 @@ header {
 
 
 .card-edicao {
-    background: rgba(8, 30, 16, 0.92);
+    background: rgba(255, 255, 255, 0.07);
     border-radius: 1.2rem;
     border: 1px solid rgba(255, 215, 0, 0.12);
     padding: 2rem 2.2rem;
@@ -268,15 +268,8 @@ header {
     margin-bottom: 0;
 }
 
-.card-link {
-    font-size: 1.2rem;
-    color: rgb(187, 159, 0);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: opacity 0.2s;
-}
+
+
 
 .card-link:hover {
     opacity: 0.75;
@@ -414,10 +407,10 @@ header {
 
 
 
-.check-verde {
-    color: rgb(40, 130, 70);
-    font-size: 1.3rem;
-    flex-shrink: 0;
+.cidades-link {
+    color: rgb(187, 159, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 
@@ -453,7 +446,15 @@ header {
     justify-content: center;
     font-size: 40px;
     color: #4a7a4a;
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s;
 }
+
+.cidade-card-img:hover {
+    transform: translateY(3px);
+}
+
 
 .cidade-card-img img {
     width: 100%;
@@ -536,6 +537,13 @@ header {
     border: 1px solid rgba(255, 215, 0, 0.1);
     border-radius: 0.8rem;
     padding: 0.8rem;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.grupo-box:hover {
+    transform: translate(1px, -2px);
 }
 
 .grupo-label {
@@ -563,20 +571,37 @@ header {
     flex-shrink: 0;
 }
 
+.link-bola {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    text-align: center;
+    border-radius: 0.8rem;
+    padding: 0.1rem;
+    text-decoration: none;
+    transition: background 0.25s;
+}
+
 .btn-grupos {
     display: block;
     text-align: center;
+    width: 100%;
     font-size: 1.3rem;
-    color: rgb(187, 159, 0);
+    background: rgb(187, 159, 0, 0.9);
     border: 1px solid rgba(187, 159, 0, 0.4);
     border-radius: 0.8rem;
     padding: 0.8rem;
     text-decoration: none;
     transition: background 0.25s;
+    
 }
 
+
 .btn-grupos:hover {
+    cursor: pointer;
+    color: #fff;
     background: rgba(187, 159, 0, 0.1);
+    
 }
 
 /* Calendário */
@@ -627,8 +652,8 @@ header {
 }
 
 #icone-jogador {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .cal-info {
@@ -663,7 +688,7 @@ header {
 }
 
 .cta-rodape-inner {
-    background: rgba(8, 30, 16, 0.9);
+    background: rgba(255, 255, 255, 0.07);
     border: 1px solid rgba(255, 215, 0, 0.15);
     border-radius: 1.2rem;
     padding: 2rem 3rem;
@@ -713,7 +738,38 @@ header {
 }
 
 .cta-btn:hover {
-    background: rgba(187, 159, 0, 0.12);
+    background: rgb(187, 159, 0, 0.9);
+    color: #000;
+}
+
+.ancora-topo {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+}
+
+.ancora-topo img {
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.ancora-topo img:hover {
+    background: linear-gradient(250deg, rgba(255, 215, 0, 1), rgb(255, 255, 255));
+}
+
+.ancora-topo a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.ancora-topo a:hover {
+    color: rgb(187, 159, 0);
 }
 
 /* ===== RESPONSIVO ===== */
