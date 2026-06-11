@@ -236,3 +236,22 @@ if (btn && card) {
         if (e.key === 'ArrowLeft')  goTo(current - 1);
       });
     })();
+const btnConvocacao = document.getElementById("btnConvocacao");
+const cardConvocacao = document.getElementById("cardConvocacao");
+
+if(btnConvocacao && cardConvocacao){
+
+    btnConvocacao.addEventListener("click", () => {
+
+        if(cardConvocacao.style.display === "block"){
+            cardConvocacao.style.display = "none";
+            btnConvocacao.textContent = "Ver Convocados";
+        }
+        else{
+            cardConvocacao.style.display = "block";
+            btnConvocacao.textContent = "Ocultar Convocados";
+        }
+
+    });
+
+}
