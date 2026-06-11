@@ -122,7 +122,47 @@ header {
     display: flex;
 }
 
-.voltar a {
+.navLinks {
+    margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navLinks a {
+  font-family: Arial, Helvetica, sans-serif;  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: rgb(40, 130, 70);
+  
+}
+
+.navLinks a:hover {
+  color: rgb(211, 175, 55, 0.8);
+  
+}
+
+:root {
+  --verdeEscuro: rgb(0, 17, 5);
+  --verdeClaro: rgb(40, 130, 70);
+  --dourado: rgb(211, 175, 55);
+}
+
+.dourado {
+  color: var(--dourado);
+}
+
+.verdeClaro {
+  color: var(--verdeClaro);
+}
+
+
+/* .voltar a {
     color: rgb(40, 130, 70);
     text-decoration: none;
     display: flex;
@@ -138,7 +178,7 @@ header {
 
 .voltar i {
     color: rgb(187, 159, 0);
-}
+} */
 
 
 .info-continente,
@@ -355,9 +395,8 @@ header {
 }
 
 .card {
+    padding: 1.5rem;
     font-size: 1.6rem;
-    display: grid;
-    grid-template-columns: 8rem 1fr;
     gap: 1.5rem;
     align-items: center;
     border: 0.1rem solid rgba(43, 44, 44, 0.9);
@@ -387,84 +426,41 @@ header {
     left: 100%;
 }
 
-.topo-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 2rem;
+.grupo-label {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(187, 159, 0);
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: solid 1px rgba(187, 159, 0, 0.8);
+    border-radius: 0.5rem;
 }
 
-.card h3 {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
-}
-
-.card p {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8rem;
-    padding-top: 1rem;
-}
-
-.iconePais {
-    margin: 2rem;
-}
-
-.iconePais img {
-    width: 6.4rem;
-    height: 6.4rem;
-    border: 0.1rem solid rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    display: block;
-}
-
-
-.card_botao {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
-    align-self: flex-start;
-    position: relative;
-    overflow: hidden;
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: white;
-    transition: 0.1s;
+.grupo-selecao {
     display: flex;
     align-items: center;
-    white-space: nowrap;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.3rem;
 }
 
-.separador-card {
+.grupo-selecao img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 0.15rem;
+    flex-shrink: 0;
+}
+
+/* .separador-card {
     grid-column: 1 / -1;
     width: 100%;
     height: 1px;
     background: linear-gradient(to right, transparent, rgba(255, 215, 0, 0.8), transparent);
     border: none;
-}
-
-.btncard {
-    grid-column: 1 / -1;
-    display: flex;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-}
-
-.card_botao:hover {
-    transform: translate(1px, -2px);
-    color: #fff;
-}
-
-.card_botao i {
-    color: rgba(255, 215, 0, 1);
-    margin-left: 8px;
-}
-
-.card_botao:hover i {
-    color: rgb(4, 83, 38);
-}
-
+} */
 
 .linha {
     width: 100%;

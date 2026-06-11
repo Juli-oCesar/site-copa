@@ -255,3 +255,14 @@ if(btnConvocacao && cardConvocacao){
     });
 
 }
+
+
+// botao para abrir a page dos grupos
+
+function abrirGrupos () { window.location.href = "/trabalhoFinal/pages/grupos/grupos.html"; }
+
+const botaoGrupos = document.getElementById('btngrupos');
+
+botaoGrupos.addEventListener("click", () => {
+    abrirGrupos ();
+});
