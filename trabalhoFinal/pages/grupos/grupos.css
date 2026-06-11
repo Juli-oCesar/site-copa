@@ -162,24 +162,6 @@ header {
 }
 
 
-/* .voltar a {
-    color: rgb(40, 130, 70);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    transition: color 0.3s;
-}
-
-.voltar a:hover {
-    color: rgb(187, 159, 0);
-    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.2);
-}
-
-.voltar i {
-    color: rgb(187, 159, 0);
-} */
-
 
 .info-continente,
 .info-grupos {
@@ -268,8 +250,11 @@ header {
     align-items: center;
     gap: 2rem;
     background: rgba(3, 20, 11, 0.5);
-    padding: 1.5rem 4rem;
-    border-radius: 1.5rem;
+    padding: 1.5rem 10rem;
+    border: solid 5px rgba(255, 215, 0, 0.5);
+    border-top: none;
+    border-bottom: none;
+    border-radius: 2rem;
     box-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
     flex: 1;
     min-width: 18rem;
