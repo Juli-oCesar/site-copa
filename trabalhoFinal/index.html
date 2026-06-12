@@ -12,23 +12,24 @@
 </head>
 
 <body>
-    <header>
+    <div id="topo"></div>
+  <header>
         <div class="container">
             <div class="logo">
                 <a href="/trabalhoFinal/index.html">
-                    <img src="/trabalhoFinal/icon/taca_copa.png" alt="Logo Copa do Mundo">
+                    <img src="/trabalhoFinal/pages/pagesIcon/taca_copa.png" alt="Logo Copa do Mundo">
+                    <span>CIDADES SEDE <b class="ano">2026</b></span>
                 </a>
             </div>
             <button class="hamburger" id="hamburger" aria-label="Abrir menu">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
             <nav class="menu" id="menu">
                 <ul>
-                    <li><a href="/trabalhoFinal/pages/header/selecoes.html"><b>Seleções</b></a></li>
-                    <li><a href="/trabalhoFinal/pages/header/edicao.html"><b>Edição 2026</b></a></li>
-                    <li><a href="/trabalhoFinal/pages/header/sobre.html"><b>Sobre</b></a></li>
+                    <li><a href="/trabalhoFinal/index.html" class="ativo">Início</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/selecoes.html">Seleções</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/edicao.html" >Edição 2026</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/sobre.html">Sobre</a></li>
                 </ul>
             </nav>
         </div>
@@ -164,6 +165,18 @@
             </div>
         </div>
     </section>
+
+    <footer class="rodapeCopy" id="rodape">
+        <div class="container-footer">
+            <nav class="ancora-topo">
+                <a href="#topo">
+                    <img src="/trabalhoFinal/icon/ancora-topo.png" alt="Ícone para voltar ao topo">
+                    Voltar ao topo
+                </a>
+            </nav>
+            <span class="footer-copy">© 2026 MUC - 26. Todos os direitos reservados.</span>
+        </div>
+    </footer>
 
     <script src="/trabalhoFinal/js/home.js"></script>
 </body>

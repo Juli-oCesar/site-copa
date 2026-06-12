@@ -1,3 +1,22 @@
+// menu hamburger
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("menu");
+
+if (hamburger && navMenu) {
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("nav-open");
+  });
+
+  navMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("nav-open");
+    });
+  });
+}
+
+
 // botao para abrir a page dos grupos
 
 function abrirGrupos () { window.location.href = "/trabalhoFinal/pages/grupos/grupos.html"; }
