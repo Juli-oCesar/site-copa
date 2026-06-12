@@ -76,8 +76,7 @@ function ale() {
     "/trabalhoFinal/pages/continentes/europa/paises/ale.html";
 }
 function aus() {
-  window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/aus.html";
+  window.location.href = "/trabalhoFinal/pages/continentes/europa/paises/aus.html";
 }
 function bel() {
   window.location.href =
@@ -137,41 +136,6 @@ function tur() {
 }
 
 //nevegação paises America Sul
-
-
-function bra() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html'; }
-function uru() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html'; }
-function col() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html'; }
-function equ() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/equador.html'; }
-function par() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html'; }
-function arg() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html'; }
-
-// navegação paises Asia
-function ara() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html'; }
-function cat() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html'; }
-function chi() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/china/china.html'; }
-function cos() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html'; }
-function con() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/coreiaNorte/coreiaNorte.html'; }
-function emi() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/emirados/emirados.html'; }
-function ind() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/indonesia/indonesia.html'; }
-function ira() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html'; }
-function irq() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html'; }
-function jap() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html'; }
-function kuw() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html'; }
-
-// navegação paises Africa
-function Marrocos() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Marrocos.html'; }
-function AfricaS() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/AfricaS.html'; }
-function Argelia() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Argelia.html'; }
-function CaboVerde() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/CaboVerde.html'; }
-function CostadoMarfim() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/CostadoMarfim.html'; }
-function Egito() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Egito.html'; }
-function RdCongo() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/RdCongo.html'; }
-function Senegal() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Senegal.html'; }
-function Tunisia() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Tunisia.html'; }
-
-// Navegação paises Oceania
-function NovaZelandia() { window.location.href = '/trabalhoFinal/pages/continentes/oceania/paisesOceania/NovaZelandia.html'; }
 function bra() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
@@ -202,6 +166,128 @@ function ara() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
 }
+function australia() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
+}
+function cat() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html";
+}
+function chi() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/china/china.html";
+}
+function cos() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html";
+}
+function con() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/coreiaNorte/coreiaNorte.html";
+}
+function emi() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/emirados/emirados.html";
+}
+function ind() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/indonesia/indonesia.html";
+}
+function ira() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html";
+}
+function irq() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html";
+}
+function jap() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html";
+}
+function kuw() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html";
+}
+
+// navegação paises Africa
+function Marrocos() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Marrocos.html";
+}
+function AfricaS() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/AfricaS.html";
+}
+function Argelia() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Argelia.html";
+}
+function CaboVerde() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/CaboVerde.html";
+}
+function CostadoMarfim() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/CostadoMarfim.html";
+}
+function Egito() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Egito.html";
+}
+function RdCongo() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/RdCongo.html";
+}
+function Senegal() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Senegal.html";
+}
+function Tunisia() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Tunisia.html";
+}
+
+// Navegação paises Oceania
+function NovaZelandia() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/oceania/paisesOceania/NovaZelandia.html";
+}
+function bra() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
+}
+function uru() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html";
+}
+function col() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html";
+}
+function equ() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaSul/paises/equador.html";
+}
+function par() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html";
+}
+function arg() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html";
+}
+
+// navegação paises Asia
+function ara() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
+}
+function aust() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
+}
 function cat() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html";
@@ -223,83 +309,101 @@ function jap() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html";
 }
-function uzb(){
+function uzb() {
   window.location.href =
-  "/trabalhoFinal/pages/continentes/asia/uzbequistao/uzbequistao.html"
+    "/trabalhoFinal/pages/continentes/asia/paises/uzbequistao/uzbequistao.html";
 }
-function jor(){
+function jor() {
   window.location.href =
-  "/trabalhoFinal/pages/continentes/asia/jordania/jordania.html"
+    "/trabalhoFinal/pages/continentes/asia/paises/jordania/jordania.html";
 }
-function aust(){
-  window.location.href =
-  "/trabalhoFinal/pages/continentes/asia/australia/australia.html"
-}
+
 
 //nevegação paises America Norte e Central
-function mex() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/mexico.html'; }
-function usa() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html'; }
-function pan() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/panama.html'; }
-function hai() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/haiti.html'; }
-function usa() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html'; }
-function cur() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/curacao.html'; }
-function can() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/canada.html';}
+function mex() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/mexico.html";
+}
+function usa() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html";
+}
+function pan() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/panama.html";
+}
+function hai() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/haiti.html";
+}
+function usa() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html";
+}
+function cur() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/curacao.html";
+}
+function can() {
+  window.location.href =
+    "/trabalhoFinal/pages/continentes/americaNorte/paises/canada.html";
+}
 
 const funcoes = {
-    ale: ale,
-    aus: aus,
-    bel: bel,
-    bos: bos,
-    cro: cro,
-    esc: esc,
-    esp: esp,
-    fra: fra,
-    hol: hol,
-    ing: ing,
-    nor: nor,
-    por: por,
-    rep: rep,
-    sue: sue,
-    sui: sui,
-    tur: tur,
-    bra: bra,
-    uru: uru,
-    col: col,
-    equ: equ,
-    par: par,
-    arg: arg,
-    ara: ara,
-    cat: cat,
-    chi: chi,
-    cos: cos,
-    con: con,
-    emi: emi,
-    ind: ind,
-    ira: ira,
-    irq: irq,
-    jap: jap,
-    kuw: kuw,
-    Marrocos: Marrocos,
-    AfricaS: AfricaS,
-    Argelia: Argelia,
-    CaboVerde: CaboVerde,
-    CostadoMarfim: CostadoMarfim,
-    Egito: Egito,
-    RdCongo: RdCongo,
-    Senegal: Senegal,
-    Tunisia: Tunisia,
-    NovaZelandia: NovaZelandia,
-    mex: mex,
-    usa: usa,
-    pan: pan,
-    hai: hai,
-    usa: usa,
-    cur: cur,
-    can: can,
-    uzb: uzb,
-    jor: jor,
-    aust: aust,
-}
+  ale: ale,
+  aus: aus,
+  bel: bel,
+  bos: bos,
+  cro: cro,
+  esc: esc,
+  esp: esp,
+  fra: fra,
+  hol: hol,
+  ing: ing,
+  nor: nor,
+  por: por,
+  rep: rep,
+  sue: sue,
+  sui: sui,
+  tur: tur,
+  bra: bra,
+  uru: uru,
+  col: col,
+  equ: equ,
+  par: par,
+  arg: arg,
+  ara: ara,
+  cat: cat,
+  chi: chi,
+  cos: cos,
+  con: con,
+  emi: emi,
+  ind: ind,
+  ira: ira,
+  irq: irq,
+  jap: jap,
+  kuw: kuw,
+  Marrocos: Marrocos,
+  AfricaS: AfricaS,
+  Argelia: Argelia,
+  CaboVerde: CaboVerde,
+  CostadoMarfim: CostadoMarfim,
+  Egito: Egito,
+  RdCongo: RdCongo,
+  Senegal: Senegal,
+  Tunisia: Tunisia,
+  NovaZelandia: NovaZelandia,
+  mex: mex,
+  usa: usa,
+  pan: pan,
+  hai: hai,
+  usa: usa,
+  cur: cur,
+  can: can,
+  uzb: uzb,
+  jor: jor,
+  aust: aust,
+};
 
 document.querySelectorAll(".card_botao").forEach((botao) => {
   botao.addEventListener("click", () => {
@@ -349,4 +453,3 @@ if (btnConvocacao && cardConvocacao) {
     }
   });
 }
-
