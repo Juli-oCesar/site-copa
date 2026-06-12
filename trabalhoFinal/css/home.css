@@ -10,11 +10,15 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a1a0f;
     background-image: url('/trabalhoFinal/images/background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    min-height: 100vh;
+    color: #fff;
+    overflow-x: hidden;
 }
 
 /* ===== HEADER ===== */
@@ -40,7 +44,7 @@ header {
 .logo .ano { color: rgb(187,159,0); margin-left: 0.4rem; }
 
 .menu ul { list-style: none; display: flex; gap: 3rem; }
-.menu a  {
+.menu a {
     text-decoration: none; font-size: 1.5rem;
     color: rgba(255,255,255,0.8); transition: color 0.25s; font-weight: 400;
 }
@@ -74,77 +78,6 @@ header {
     text-decoration: none; color: rgb(40,130,70);
 }
 .navLinks a:hover { color: rgba(211,175,55,0.8); }
-
-.container {
-    max-width: 150rem;
-    margin: 0 auto;
-    padding: 0.5rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    height: 6rem;
-    display: block;
-}
-
-/* ===== MENU ===== */
-.menu ul {
-    list-style: none;
-    display: flex;
-    gap: 2.5rem;
-}
-
-.menu a {
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 1.6rem;
-    color: #fff;
-    transition: color 0.3s;
-}
-
-.menu a:hover {
-    color: rgb(187, 159, 0);
-}
-
-/* ===== HAMBURGER ===== */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2.8rem;
-    height: 2rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    z-index: 1100;
-    flex-shrink: 0;
-}
-
-.hamburger span {
-    display: block;
-    height: 0.3rem;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 0.3rem;
-    transition: all 0.3s ease;
-    transform-origin: center;
-}
-
-.hamburger.active span:nth-child(1) {
-    transform: translateY(0.85rem) rotate(45deg);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-    transform: scaleX(0);
-}
-
-.hamburger.active span:nth-child(3) {
-    transform: translateY(-0.85rem) rotate(-45deg);
-}
 
 /* ===== HERO ===== */
 h1 {
@@ -199,7 +132,7 @@ h3 {
 
 /* ===== SECTIONS ===== */
 .secao {
-    max-width: 150rem;
+    max-width: 140rem;
     margin: 0 auto;
     padding: 0 2rem;
 }
