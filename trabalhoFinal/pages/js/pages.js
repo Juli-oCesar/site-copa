@@ -110,6 +110,20 @@ function irq() { window.location.href = '/trabalhoFinal/pages/continentes/asia/p
 function jap() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html'; }
 function kuw() { window.location.href = '/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html'; }
 
+// navegação paises Africa
+function Marrocos() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Marrocos.html'; }
+function AfricaS() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/AfricaS.html'; }
+function Argelia() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Argelia.html'; }
+function CaboVerde() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/CaboVerde.html'; }
+function CostadoMarfim() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/CostadoMarfim.html'; }
+function Egito() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Egito.html'; }
+function RdCongo() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/RdCongo.html'; }
+function Senegal() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Senegal.html'; }
+function Tunisia() { window.location.href = '/trabalhoFinal/pages/continentes/africa/paisesAfrica/Tunisia.html'; }
+
+// Navegação paises Oceania
+function NovaZelandia() { window.location.href = '/trabalhoFinal/pages/continentes/oceania/paisesOceania/NovaZelandia.html'; }
+
 
 const funcoes = {
     ale: ale,
@@ -144,7 +158,17 @@ const funcoes = {
     ira: ira,
     irq: irq,
     jap: jap,
-    kuw: kuw
+    kuw: kuw,
+    Marrocos: Marrocos,
+    AfricaS: AfricaS,
+    Argelia: Argelia,
+    CaboVerde: CaboVerde,
+    CostadoMarfim: CostadoMarfim,
+    Egito: Egito,
+    RdCongo: RdCongo,
+    Senegal: Senegal,
+    Tunisia: Tunisia,
+    NovaZelandia: NovaZelandia
 }
 
 document.querySelectorAll('.card_botao').forEach((botao) => {
