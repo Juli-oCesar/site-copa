@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="/trabalhoFinal/css/continentes.css">
     <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>MUC - América do Norte</title>
+    <title>MUC - América do Norte e Central</title>
 </head>
 
 <body>
-    <header id="topo">
+
+    <div id="topo"></div>
+
+    <header>
         <div class="container">
             <div class="logo">
                 <a href="/trabalhoFinal/index.html">
@@ -20,11 +23,13 @@
                     <b>América do Norte e Central</b>
                 </a>
             </div>
+
             <button class="hamburger" id="hamburger" aria-label="Abrir menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
             <nav class="menu" id="menu">
                 <ul>
                     <li><a href="/trabalhoFinal/pages/header/selecoes.html"><b>Seleções</b></a></li>
@@ -37,13 +42,16 @@
 
     <section class="secao">
         <div class="voltar">
-            <a href="/trabalhoFinal/index.html"><i class="fa-solid fa-arrow-left"></i>Voltar para Continentes</a>
+            <a href="/trabalhoFinal/index.html">
+                <i class="fa-solid fa-arrow-left"></i>Voltar para Continentes
+            </a>
         </div>
 
         <section class="info-continente">
             <div class="iconeContinente">
-                <img src="/trabalhoFinal/icon/iconeAmericaDoNorte.png" alt="Ícone da América do Norte">
+                <img src="/trabalhoFinal/icon/iconeAmericaDoNorte.png" alt="Ícone da América do Norte e Central">
             </div>
+
             <div class="container-info">
                 <h2>Seleções da América do Norte e Central</h2>
                 <p>Explore o histórico das seleções norte e centro-americanas na Copa do Mundo.</p>
@@ -51,7 +59,211 @@
         </section>
     </section>
 
+    <section class="secao" id="info-europa">
+        <section class="secao" id="secao-informativo-continente">
+            <div class="informativo-europa">
+
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/camisa.png" alt="">
+                    <span class="info-europa-texto">
+                        <h4>6</h4>
+                        <p>Seleções</p>
+                    </span>
+                </div>
+
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/verificar.png" alt="">
+                    <span class="info-europa-texto">
+                        <h4>35</h4>
+                        <p>Participações</p>
+                    </span>
+                </div>
+
+                <div class="container-info-europa">
+                    <img src="/trabalhoFinal/pages/pagesIcon/vencedor.png" alt="">
+                    <span class="info-europa-texto">
+                        <h4>0</h4>
+                        <p>Títulos</p>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <hr class="linha-topo">
+
+    <div class="separador"></div>
+
+    <section class="secao">
+        <div class="barra-de-controles">
+
+            <div class="barra-de-busca">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar seleção...">
+            </div>
+
+            <div class="filtro">
+                <i class="fa-solid fa-filter"></i>
+                <select>
+                    <option>Nome</option>
+                    <option>Participações</option>
+                    <option>Títulos</option>
+                </select>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="separador"></div>
+
+    <section class="secao" id="grid-secao">
+        <div class="grid">
+
+            <div class="card" data-nome="canada" data-participacoes="3" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaNorte/images/canada-bandeira.png"
+                        alt="Canadá">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Canadá</h3>
+
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard">
+                    <button class="card_botao" type="button" data-pais="can">
+                        Ver Histórico <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="card" data-nome="estados unidos" data-participacoes="12" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaNorte/images/USA-bandeira.png"
+                        alt="Estados Unidos">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Estados Unidos</h3>
+
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard">
+    <button class="card_botao" type="button" data-pais="usa">
+        Ver Histórico <i class="fa-solid fa-arrow-right"></i>
+    </button>
+</span>
+            </div>
+
+            <div class="card" data-nome="mexico" data-participacoes="18" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaNorte/images/mexico-bandeira.png" alt="México">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>México</h3>
+
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard">
+                    <span class="btncard">
+                        <button class="card_botao" type="button" data-pais="mex">
+                            Ver Histórico <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                </span>
+                </button>
+                </span>
+            </div>
+
+            <div class="card" data-nome="curacao" data-participacoes="0" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaNorte/images/curacao-bandeira.png" alt="Curaçao">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Curaçao</h3>
+
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard">
+                    <button class="card_botao" type="button" data-pais="cur">
+                        Ver Histórico <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="card" data-nome="haiti" data-participacoes="1" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaNorte/images/haiti-bandeira.png" alt="Haiti">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Haiti</h3>
+
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard">
+                    <button class="card_botao" type="button" data-pais="hai">
+                        Ver Histórico <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="card" data-nome="panama" data-participacoes="1" data-titulos="0">
+                <div class="iconePais">
+                    <img src="/trabalhoFinal/pages/continentes/americaNorte/images/panama-bandeira.png" alt="Panamá">
+                </div>
+                <div class="card-content">
+                    <div class="topo-card">
+                        <h3>Panamá</h3>
+
+                    </div>
+                </div>
+                <div class="separador-card"></div>
+                <span class="btncard">
+                    <button class="card_botao" type="button" data-pais="pan">
+                        Ver Histórico <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="secao" id="secao-informativo-continentes">
+        <h3>Seleções da América do Norte e Central em Copas do Mundo</h3>
+
+        <hr class="linha">
+
+        <p>
+            A América do Norte e Central é representada pela CONCACAF. México, Estados Unidos e Canadá são as
+            seleções mais tradicionais da região. Panamá e Haiti já participaram de Copas do Mundo e continuam
+            evoluindo no cenário internacional. Curaçao busca sua primeira classificação para um Mundial e investe
+            cada vez mais no desenvolvimento do futebol local.
+        </p>
+    </section>
+
+    <div class="separador"></div>
+
+    <footer id="rodape">
+        <div class="container-footer">
+            <nav class="ancora-topo">
+                <a href="#topo">
+                    <img src="/trabalhoFinal/icon/ancora-topo.png" alt="">
+                    Voltar ao topo
+                </a>
+            </nav>
+        </div>
+    </footer>
+
     <script src="/trabalhoFinal/pages/js/pages.js"></script>
+
 </body>
 
 </html>

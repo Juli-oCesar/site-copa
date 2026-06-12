@@ -172,53 +172,6 @@ function Tunisia() { window.location.href = '/trabalhoFinal/pages/continentes/af
 
 // Navegação paises Oceania
 function NovaZelandia() { window.location.href = '/trabalhoFinal/pages/continentes/oceania/paisesOceania/NovaZelandia.html'; }
-
-
-const funcoes = {
-    ale: ale,
-    aus: aus,
-    bel: bel,
-    bos: bos,
-    cro: cro,
-    esc: esc,
-    esp: esp,
-    fra: fra,
-    hol: hol,
-    ing: ing,
-    nor: nor,
-    por: por,
-    rep: rep,
-    sue: sue,
-    sui: sui,
-    tur: tur,
-    bra: bra,
-    uru: uru,
-    col: col,
-    equ: equ,
-    par: par,
-    arg: arg,
-    ara: ara,
-    cat: cat,
-    chi: chi,
-    cos: cos,
-    con: con,
-    emi: emi,
-    ind: ind,
-    ira: ira,
-    irq: irq,
-    jap: jap,
-    kuw: kuw,
-    Marrocos: Marrocos,
-    AfricaS: AfricaS,
-    Argelia: Argelia,
-    CaboVerde: CaboVerde,
-    CostadoMarfim: CostadoMarfim,
-    Egito: Egito,
-    RdCongo: RdCongo,
-    Senegal: Senegal,
-    Tunisia: Tunisia,
-    NovaZelandia: NovaZelandia
-}
 function bra() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
@@ -290,6 +243,67 @@ function kuw() {
     "/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html";
 }
 
+//nevegação paises America Norte e Central
+function mex() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/mexico.html'; }
+function usa() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html'; }
+function pan() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/panama.html'; }
+function hai() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/haiti.html'; }
+function usa() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html'; }
+function cur() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/curacao.html'; }
+function can() { window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/paises/canada.html';}
+
+const funcoes = {
+    ale: ale,
+    aus: aus,
+    bel: bel,
+    bos: bos,
+    cro: cro,
+    esc: esc,
+    esp: esp,
+    fra: fra,
+    hol: hol,
+    ing: ing,
+    nor: nor,
+    por: por,
+    rep: rep,
+    sue: sue,
+    sui: sui,
+    tur: tur,
+    bra: bra,
+    uru: uru,
+    col: col,
+    equ: equ,
+    par: par,
+    arg: arg,
+    ara: ara,
+    cat: cat,
+    chi: chi,
+    cos: cos,
+    con: con,
+    emi: emi,
+    ind: ind,
+    ira: ira,
+    irq: irq,
+    jap: jap,
+    kuw: kuw,
+    Marrocos: Marrocos,
+    AfricaS: AfricaS,
+    Argelia: Argelia,
+    CaboVerde: CaboVerde,
+    CostadoMarfim: CostadoMarfim,
+    Egito: Egito,
+    RdCongo: RdCongo,
+    Senegal: Senegal,
+    Tunisia: Tunisia,
+    NovaZelandia: NovaZelandia,
+    mex: mex,
+    usa: usa,
+    pan: pan,
+    hai: hai,
+    usa: usa,
+    cur: cur,
+    can: can,
+}
 
 document.querySelectorAll(".card_botao").forEach((botao) => {
   botao.addEventListener("click", () => {
