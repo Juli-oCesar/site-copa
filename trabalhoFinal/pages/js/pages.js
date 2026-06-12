@@ -138,7 +138,7 @@ function tur() {
 
 //nevegação paises America Sul
 
-<<<<<<< HEAD
+
 function bra() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html'; }
 function uru() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html'; }
 function col() { window.location.href = '/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html'; }
@@ -218,7 +218,7 @@ const funcoes = {
     Senegal: Senegal,
     Tunisia: Tunisia,
     NovaZelandia: NovaZelandia
-=======
+}
 function bra() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
@@ -242,7 +242,6 @@ function par() {
 function arg() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html";
->>>>>>> b956953689bc3ef9ea16e75465feb41d6b3ef8cd
 }
 
 // navegação paises Asia
