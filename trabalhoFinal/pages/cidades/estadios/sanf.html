@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/trabalhoFinal/icon/icone.png">
+    <link rel="stylesheet" href="/trabalhoFinal/pages/cidades/estadios/css/estadios.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
+    <title>Edição 2026</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> 
+</head>
+
+<body>
+    <div id="topo"></div>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/trabalhoFinal/index.html">
+                    <img src="/trabalhoFinal/pages/pagesIcon/taca_copa.png" alt="Logo Copa do Mundo">
+                    <span>SÃO F. - <b class="ano">EUA</b></span>
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="menu" id="menu">
+                <ul>
+                    <li><a href="/trabalhoFinal/index.html">Início</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/selecoes.html">Seleções</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/edicao.html" class="ativo">Edição 2026</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+     <section class="secao">
+        <div class="navLinks">
+        <a href="/trabalhoFinal/pages/header/edicao.html" class="verdeClaro"><span class="material-symbols-outlined dourado"> arrow_back </span>Voltar para Edição 2026<span class="material-symbols-outlined branco">arrow_forward_ios</span></a>
+        <a href="/trabalhoFinal/pages/cidades/cidades.html">Cidades Sede</a>
+        <a href="#" class="verdeClaro"><span class="material-symbols-outlined branco">arrow_forward_ios</span>São Francisco</a>
+        
+    </section>
+
+    <section class="hero">
+        <div class="hero-conteudo">
+
+            <h1 class="hero-titulo">SÃO FRANCISCO<br><span class="hero-ano">2026</span></h1>
+            <p class="hero-desc"><i>Levi's Stadium</i></p>
+
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <i class="fa-regular fa-calendar"></i>
+                    <div>
+                        <span class="stat-label">Período</span>
+                        <span class="stat-valor">11 de junho –<br>19 de julho de 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="retrato">
+            <img src="/trabalhoFinal/pages/header/edicao/images/sanFrancisco.png" alt="">
+        </div>
+    </section>
+
+
+
+
+    <!-- ===== GRID DE CARDS ===== -->
+    <section class="secao-grid">
+
+        <!-- Card: Estadio -->
+        <div class="card-edicao" id="card-estadio">
+            <div class="card-header-linha">
+                <p class="card-titulo">ESTÁDIO | Levi's Stadium</p>
+                <img class="link-bola" src="/trabalhoFinal/pages/cidades/estadios/images/iconeEstadio.png" alt="">
+            </div>
+            <div class="box-estadio">
+                <img src="/trabalhoFinal/pages/cidades/estadios/images/levis.png" alt="">
+                
+            </div>
+
+            <!-- <button class="btn-grupos" id="btngrupos" type="button">Ver todos os grupos</button> -->
+            <!-- <a href="#" class="btn-grupos">Ver todos os grupos</a> -->
+        </div>
+
+        <!-- Card: mapa -->
+        <div class="card-edicao" id="card-mapa">
+            <div class="card-header-linha">
+                <p class="card-titulo">MAPA</p>
+                <img class="link-bola" src="/trabalhoFinal/pages/cidades/estadios/images/iconeMapa.png" alt="">
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.4295515479826!2d-121.97195232359971!3d37.40332073346951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc9c827c5f0df%3A0x11455a372e1f7d18!2sEst%C3%A1dio%20da%20Ba%C3%ADa%20de%20S%C3%A3o%20Francisco!5e0!3m2!1spt-BR!2sbr!4v1781222781072!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+        </div>
+
+
+        <div class="card-edicao" id="card-cidades">
+            <div class="card-header-linha">
+                <p class="card-titulo">NAVEGAR PELAS OUTRAS CIDADES SEDE</p>
+
+                <button class="cidades-link" id="btncidades">Ver todas <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+
+            <div class="cidades-carrossel-wrapper">
+                <div class="cidades-carrossel" id="cidades-lista">
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/atlanta.png"
+                                alt="atlanta"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Atlanta</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="atlanta">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/boston.png"
+                                alt="boston"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Boston</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="boston">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img
+                                src="/trabalhoFinal/pages/header/edicao/images/cidadeMexico.png" alt="cidade do mexico">
+                        </div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Cidade do México</p>
+                            <p class="cidade-pais">México</p>
+                            <button class="cidade-estadio" data-cidade="cidadeMexico">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/dallas.jpg"
+                                alt="dallas"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Dallas</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="dallas">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img
+                                src="/trabalhoFinal/pages/header/edicao/images/guadalajara.png" alt="dallas"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Guadalajara</p>
+                            <p class="cidade-pais">México</p>
+                            <button class="cidade-estadio" data-cidade="guadalajara">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/houston.png"
+                                alt="dallas"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Houston</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="houston">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/ny.png" alt="nova yorque">
+                        </div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Nova York / Nova Jersey</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="novaYork">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/losAngeles.png"
+                                alt="los angeles"></i></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Los Angeles</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="losAngeles">Saiba mais</button>
+                        </div>
+                    </div>
+                    
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/toronto.png"
+                                alt="toronto"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Toronto</p>
+                            <p class="cidade-pais">Canadá</p>
+                            <button class="cidade-estadio" data-cidade="toronto">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/kansas.png"
+                                alt="kansas city"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Kansas City</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="kansas">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/vancouver.png"
+                                alt="vancouver"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Vancouver</p>
+                            <p class="cidade-pais">Canadá</p>
+                            <button class="cidade-estadio" data-cidade="vancouver">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/monterrey.png"
+                                alt="Monterrey"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Monterrey</p>
+                            <p class="cidade-pais">México</p>
+                            <button class="cidade-estadio" data-cidade="monterrey">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/miami.png"
+                                alt="Miami"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Miami</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="miami">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/filadelfia.png"
+                                alt="Filadélfia"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Filadélfia</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="filadelfia">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img
+                                src="/trabalhoFinal/pages/header/edicao/images/sanFrancisco.png" alt="San Francisco"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">San Francisco</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="sanFrancisco">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="cidade-item">
+                        <div class="cidade-card-img"><img src="/trabalhoFinal/pages/header/edicao/images/seattle.png"
+                                alt="Seattle"></div>
+                        <div class="cidade-info">
+                            <p class="cidade-nome">Seattle</p>
+                            <p class="cidade-pais">Estados Unidos</p>
+                            <button class="cidade-estadio" data-cidade="seattle">Saiba mais</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carrossel-dots" id="carrossel-dots"></div>
+        </div>
+
+    </section>
+
+    <!-- ===== RODAPÉ CTA ===== -->
+
+
+    <footer id="rodape">
+        <div class="container-footer">
+            <nav class="ancora-topo">
+                <a href="#topo">
+                    <img src="/trabalhoFinal/icon/ancora-topo.png" alt="Ícone para voltar ao topo">
+                    Voltar ao topo
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="/trabalhoFinal/pages/header/edicao/js/edicao.js"></script>
+
+
+</body>
+
+</html>

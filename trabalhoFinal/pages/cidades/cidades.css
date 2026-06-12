@@ -223,11 +223,6 @@ header {
 }
 
 
-.secao {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
 
  
 
@@ -303,16 +298,12 @@ header {
     max-width: 140rem;
     margin: 0 auto;
     padding: 0 3rem 4rem;
-    background: #0a1a0f;
+    
     gap: 1.5rem;
 }
 
 
 
-.grid-cidades {
-  max-width: 960px;
-  margin: 0 auto;
-}
 
 .card-edicao {
   display: grid;
@@ -383,6 +374,7 @@ header {
   align-items: center;
   gap: 6px;
   transition: color 0.15s;
+  
 }
 
 .cidade-estadio:hover {
