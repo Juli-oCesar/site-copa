@@ -2,7 +2,7 @@
 
 Projeto desenvolvido com HTML, CSS e JavaScript com o objetivo de apresentar informações sobre as seleções participantes da Copa do Mundo, organizadas por continente.
 
-Site: (Colocar o link aquui)
+Site: https://6a2bbcd0a503af00dd5f39d1--classy-brigadeiros-3f4803.netlify.app/trabalhofinal/
 
 ## 📖 Sobre o Projeto
 
