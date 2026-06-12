@@ -1,10 +1,10 @@
-# ⚽ MUC - WORLD CUP 2026
+MUC - WORLD CUP 2026
 
 Projeto desenvolvido com HTML, CSS e JavaScript com o objetivo de apresentar informações sobre as seleções participantes da Copa do Mundo, organizadas por continente.
 
 Site: (Colocar o link aquui)
 
-## 📖 Sobre o Projeto
+Sobre o Projeto
 
 O Site Copa do Mundo foi criado para reunir informações das seleções classificadas para o torneio, apresentando dados como:
 
@@ -18,7 +18,7 @@ O Site Copa do Mundo foi criado para reunir informações das seleções classif
 - Estadios da copa
 - Interface responsiva e intuitiva
 
-## 🌍 Continentes Disponíveis
+Continentes Disponíveis
 
 - Europa
 - África
@@ -30,7 +30,7 @@ O Site Copa do Mundo foi criado para reunir informações das seleções classif
 Cada continente possui sua própria página com cards informativos das seleções classificadas.
 
 
-## 👨‍💻 Desenvolvedores
+Desenvolvedores
 - Julio Cesar
 - Izaque
 - João Gabriel Domenici Motta
@@ -38,5 +38,5 @@ Cada continente possui sua própria página com cards informativos das seleçõe
 - Gabriel Palha Gama
 - Rodrigo Tolentino
 
-## 🔍 Informações
+Informações
 Trabalho Universitario do Primeiro Período da Fundação Mineira de Educação e Cultura (FUMEC) Da disciplina Introdução ao desenvolvimento WEB
