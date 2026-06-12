@@ -290,41 +290,6 @@ function kuw() {
     "/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html";
 }
 
-const funcoes = {
-  ale: ale,
-  aus: aus,
-  bel: bel,
-  bos: bos,
-  cro: cro,
-  esc: esc,
-  esp: esp,
-  fra: fra,
-  hol: hol,
-  ing: ing,
-  nor: nor,
-  por: por,
-  rep: rep,
-  sue: sue,
-  sui: sui,
-  tur: tur,
-  bra: bra,
-  uru: uru,
-  col: col,
-  equ: equ,
-  par: par,
-  arg: arg,
-  ara: ara,
-  cat: cat,
-  chi: chi,
-  cos: cos,
-  con: con,
-  emi: emi,
-  ind: ind,
-  ira: ira,
-  irq: irq,
-  jap: jap,
-  kuw: kuw,
-};
 
 document.querySelectorAll(".card_botao").forEach((botao) => {
   botao.addEventListener("click", () => {
