@@ -166,7 +166,7 @@ function ara() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
 }
-function australia() {
+  function australia() {
   window.location.href =
     "/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
 }
