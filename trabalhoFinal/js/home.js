@@ -1,4 +1,4 @@
-// menu hamburger
+﻿// menu hamburger
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('menu');
 
@@ -19,31 +19,31 @@ if (hamburger && navMenu) {
 
 // continentes
 function continenteAF() {
-    window.location.href = '/trabalhoFinal/pages/continentes/africa/africa.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/africa.html';
 }
 
 function continenteNA() {
-    window.location.href = '/trabalhoFinal/pages/continentes/americaNorte/americaNorte.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/americaNorte.html';
 }
 
 function continenteSA() {
-    window.location.href = '/trabalhoFinal/pages/continentes/americaSul/americaSul.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/americaSul.html';
 }
 
 function continenteAS() {
-    window.location.href = '/trabalhoFinal/pages/continentes/asia/asia.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/asia.html';
 }
 
 function continenteEU() {
-    window.location.href = '/trabalhoFinal/pages/continentes/europa/europa.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/europa.html';
 }
 
 function continenteOC() {
-    window.location.href = '/trabalhoFinal/pages/continentes/oceania/oceania.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/oceania/oceania.html';
 }
 
 function home() {
-    window.location.href = '/trabalhoFinal/index.html';
+    window.location.href = 'https://juli-ocesar.github.io/site-copa/';
 }
 
 

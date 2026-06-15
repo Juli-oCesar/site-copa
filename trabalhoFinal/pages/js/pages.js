@@ -1,4 +1,4 @@
-// menu hamburger
+﻿// menu hamburger
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("menu");
 
@@ -73,280 +73,280 @@ if (select && container) {
 
 function ale() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/ale.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/ale.html";
 }
 function aus() {
-  window.location.href = "/trabalhoFinal/pages/continentes/europa/paises/aus.html";
+  window.location.href = "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/aus.html";
 }
 function bel() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/bel.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/bel.html";
 }
 function bos() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/bos.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/bos.html";
 }
 function cro() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/cro.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/cro.html";
 }
 function esc() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/esc.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/esc.html";
 }
 function esp() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/esp.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/esp.html";
 }
 function fra() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/fra.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/fra.html";
 }
 function hol() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/hol.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/hol.html";
 }
 function ing() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/ing.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/ing.html";
 }
 function nor() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/nor.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/nor.html";
 }
 function por() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/por.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/por.html";
 }
 function rep() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/rep.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/rep.html";
 }
 function sue() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/sue.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/sue.html";
 }
 function sui() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/sui.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/sui.html";
 }
 function tur() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/europa/paises/tur.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/europa/paises/tur.html";
 }
 
 //nevegação paises America Sul
 function bra() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
 }
 function uru() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html";
 }
 function col() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html";
 }
 function equ() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/equador.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/equador.html";
 }
 function par() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html";
 }
 function arg() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html";
 }
 
 // navegação paises Asia
 function ara() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
 }
   function australia() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
 }
 function cat() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html";
 }
 function chi() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/china/china.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/china/china.html";
 }
 function cos() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html";
 }
 function con() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/coreiaNorte/coreiaNorte.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/coreiaNorte/coreiaNorte.html";
 }
 function emi() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/emirados/emirados.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/emirados/emirados.html";
 }
 function ind() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/indonesia/indonesia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/indonesia/indonesia.html";
 }
 function ira() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html";
 }
 function irq() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html";
 }
 function jap() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html";
 }
 function kuw() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/kuwait/kuwait.html";
 }
 
 // navegação paises Africa
 function Marrocos() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Marrocos.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/Marrocos.html";
 }
 function AfricaS() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/AfricaS.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/AfricaS.html";
 }
 function Argelia() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Argelia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/Argelia.html";
 }
 function CaboVerde() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/CaboVerde.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/CaboVerde.html";
 }
 function CostadoMarfim() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/CostadoMarfim.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/CostadoMarfim.html";
 }
 function Egito() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Egito.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/Egito.html";
 }
 function RdCongo() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/RdCongo.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/RdCongo.html";
 }
 function Senegal() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Senegal.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/Senegal.html";
 }
 function Tunisia() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/africa/paisesAfrica/Tunisia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/africa/paisesAfrica/Tunisia.html";
 }
 
 // Navegação paises Oceania
 function NovaZelandia() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/oceania/paisesOceania/NovaZelandia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/oceania/paisesOceania/NovaZelandia.html";
 }
 function bra() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/brasil.html";
 }
 function uru() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/uruguai.html";
 }
 function col() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/colombia.html";
 }
 function equ() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/equador.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/equador.html";
 }
 function par() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/paraguai.html";
 }
 function arg() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaSul/paises/argentina.html";
 }
 
 // navegação paises Asia
 function ara() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/arabia/arabia.html";
 }
 function aust() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/australia/australia.html";
 }
 function cat() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/catar/catar.html";
 }
 
 function cos() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/coreiaSul/coreiaSul.html";
 }
 function ira() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/ira/ira.html";
 }
 function irq() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/iraque/iraque.html";
 }
 function jap() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/japao/japao.html";
 }
 function uzb() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/uzbequistao/uzbequistao.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/uzbequistao/uzbequistao.html";
 }
 function jor() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/asia/paises/jordania/jordania.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/asia/paises/jordania/jordania.html";
 }
 
 
 //nevegação paises America Norte e Central
 function mex() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/mexico.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/mexico.html";
 }
 function usa() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html";
 }
 function pan() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/panama.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/panama.html";
 }
 function hai() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/haiti.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/haiti.html";
 }
 function usa() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/estadosunidos.html";
 }
 function cur() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/curacao.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/curacao.html";
 }
 function can() {
   window.location.href =
-    "/trabalhoFinal/pages/continentes/americaNorte/paises/canada.html";
+    "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/continentes/americaNorte/paises/canada.html";
 }
 
 const funcoes = {

@@ -1,4 +1,4 @@
-/* ===== BASE ===== */
+﻿/* ===== BASE ===== */
 html { font-size: 62.5%; }
 
 *,
@@ -11,7 +11,7 @@ html { font-size: 62.5%; }
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #0a1a0f;
-    background-image: url('/trabalhoFinal/images/background.png');
+    background-image: url('../../../../../trabalhoFinal/images/background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

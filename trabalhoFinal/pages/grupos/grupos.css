@@ -1,4 +1,4 @@
-html {
+﻿html {
     font-size: 62.5%;
 }
 
@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('/trabalhoFinal/images/background.png');
+    background-image: url('../../../trabalhoFinal/images/background.png');
     min-height: 100vh;
     background-size: cover;
     background-position: center;

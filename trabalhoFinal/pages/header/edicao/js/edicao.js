@@ -1,4 +1,4 @@
-// menu hamburger
+﻿// menu hamburger
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("menu");
 
@@ -19,16 +19,16 @@ if (hamburger && navMenu) {
 
 // botao para abrir a page dos grupos
 
-function abrirGrupos () { window.location.href = "/trabalhoFinal/pages/grupos/grupos.html"; }
+function abrirGrupos () { window.location.href = "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/grupos/grupos.html"; }
 
 const botaoGrupos = document.getElementById('btngrupos');
 
 if (botaoGrupos) {
   botaoGrupos.addEventListener("click", () => {
-    window.location.href = "/trabalhoFinal/pages/grupos/grupos.html";
+    window.location.href = "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/grupos/grupos.html";
   });
 }
-function abrirCidades () { window.location.href ="/trabalhoFinal/pages/cidades/cidades.html"; }
+function abrirCidades () { window.location.href ="https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/cidades.html"; }
 
 
 // botao para abrir a page das cidades
@@ -37,7 +37,7 @@ const botaoCidades = document.getElementById('btncidades');
 
 if (botaoCidades) {
   botaoCidades.addEventListener("click", () => {
-    window.location.href = "/trabalhoFinal/pages/cidades/cidades.html";
+    window.location.href = "https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/cidades.html";
   });
 }
 
@@ -58,22 +58,22 @@ if (botaoSiteFifa) {
 
 
 const funcoes = {
-  atlanta:      () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/atlanta.html',
-  boston:       () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/boston.html',
-  cidadeMexico: () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/cidmex.html',
-  dallas:       () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/dallas.html',
-  guadalajara:  () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/guada.html',
-  houston:      () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/houston.html',
-  novaYork:     () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/ny-nj.html',
-  losAngeles:   () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/la.html',
-  toronto:      () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/toronto.html',
-  kansas:       () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/kansas.html',
-  vancouver:    () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/vanc.html',
-  monterrey:    () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/monte.html',
-  miami:        () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/miami.html',
-  filadelfia:   () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/fila.html',
-  sanFrancisco: () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/sanf.html',
-  seattle:      () => window.location.href = '/trabalhoFinal/pages/cidades/estadios/seattle.html',
+  atlanta:      () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/atlanta.html',
+  boston:       () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/boston.html',
+  cidadeMexico: () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/cidmex.html',
+  dallas:       () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/dallas.html',
+  guadalajara:  () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/guada.html',
+  houston:      () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/houston.html',
+  novaYork:     () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/ny-nj.html',
+  losAngeles:   () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/la.html',
+  toronto:      () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/toronto.html',
+  kansas:       () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/kansas.html',
+  vancouver:    () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/vanc.html',
+  monterrey:    () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/monte.html',
+  miami:        () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/miami.html',
+  filadelfia:   () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/fila.html',
+  sanFrancisco: () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/sanf.html',
+  seattle:      () => window.location.href = 'https://juli-ocesar.github.io/site-copa/trabalhoFinal/pages/cidades/estadios/seattle.html',
 };
 
 document.querySelectorAll('.cidade-estadio').forEach((botao) => {
