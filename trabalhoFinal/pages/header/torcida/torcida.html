@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/trabalhoFinal/icon/icone.png">
+    <link rel="stylesheet" href="/trabalhoFinal/css/torcida.css">
+    <script src="https://kit.fontawesome.com/e88a911cfa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>MUC - Torcida</title>
+</head>
+
+<body>
+    <div id="topo"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/trabalhoFinal/index.html">
+                    <img src="/trabalhoFinal/pages/pagesIcon/taca_copa.png" alt="Logo Copa do Mundo">
+                    <span>TORCIDA</span>
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="menu" id="menu">
+                <ul>
+                    <li><a href="/trabalhoFinal/index.html">Início</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/selecoes.html">Seleções</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/edicao.html">Edição 2026</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/torcida/torcida.html" class="ativo">Torcida</a></li>
+                    <li><a href="/trabalhoFinal/pages/header/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1>QUAL É A SUA TORCIDA?</h1>
+    <p id="sub-torcida"><i>Conte pra gente qual seleção você vai torcer na Copa de 2026</i></p>
+
+    <section class="secao">
+        <div class="card-form">
+            <form id="formTorcida" action="#" method="post">
+
+                <div class="grupo-campo">
+                    <label for="nomeCompleto">Nome completo</label>
+                    <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="grupo-campo grupo-pais">
+                    <label for="inputPais">País que você está torcendo</label>
+                    <div class="campo-pais-wrapper">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="inputPais" name="paisDigitado" placeholder="Digite o nome do país (ex: B para Brasil)" autocomplete="off" required>
+                        <img id="bandeiraSelecionada" src="" alt="">
+                    </div>
+                    <ul class="lista-sugestoes" id="listaSugestoes"></ul>
+                    <small class="aviso-pais" id="avisoPais"></small>
+                    <input type="hidden" id="paisEscolhido" name="pais">
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="mensagemTorcida">Mensagem para a sua seleção (opcional)</label>
+                    <textarea id="mensagemTorcida" name="mensagem" placeholder="Deixe uma mensagem de torcida..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar <i class="fa-regular fa-futbol bola"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodapeCopy" id="rodape">
+        <div class="container-footer">
+            <nav class="ancora-topo">
+                <a href="#topo">
+                    <img src="/trabalhoFinal/icon/ancora-topo.png" alt="Ícone para voltar ao topo">
+                    Voltar ao topo
+                </a>
+            </nav>
+            <span class="footer-copy">© 2026 MUC - 26. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+
+    <div class="overlay-sucesso" id="overlaySucesso">
+        <div class="modal-sucesso">
+            <button class="fechar-modal" id="fecharModal" aria-label="Fechar">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="icone-sucesso">
+                <i class="fa-solid fa-trophy"></i>
+            </div>
+            <h2>Parabéns, <span id="nomeConfirmado"></span>!</h2>
+            <p class="texto-sucesso">Sua torcida foi registrada para a seleção</p>
+            <div class="pais-confirmado">
+                <img id="bandeiraConfirmada" src="" alt="">
+                <span id="paisConfirmado"></span>
+            </div>
+            <p class="texto-sucesso-2">Boa sorte pra sua seleção na Copa de 2026! <i class="fa-regular fa-futbol"></i></p>
+            <button class="btn-enviar" id="btnFecharSucesso">Fechar</button>
+        </div>
+    </div>
+
+    <script src="/trabalhoFinal/js/home.js"></script>
+    <script src="/trabalhoFinal/pages/header/torcida/paises.js"></script>
+</body>
+
+</html>
